@@ -1,117 +1,167 @@
+// Question banks are organised by topic/subtopic.
+// Add another entry here when you create a new question-bank folder.
+
+const QUESTION_BANKS = [
+  {
+    topic: "RIEAM",
+    subtopic: "Abalroamentos",
+    path: "questions/RIEAM/Abalroamentos/questions.json"
+  }
+];
+
 let questions = [];
 let currentQuestion = null;
 
-// Load questions from questions.json
-fetch("questions.json")
-    .then(response => response.json())
-    .then(data => {
-        questions = data;
-        startExam();
-    })
-    .catch(error => {
-        console.error("Error loading questions:", error);
-    });
+async function loadQuestions() {
+  try {
+    const loadedBanks = await Promise.all(
+      QUESTION_BANKS.map(async (bank) => {
+        const response = await fetch(bank.path);
 
+        if (!response.ok) {
+          throw new Error(`Could not load ${bank.path}`);
+        }
 
-// Start the exam
-function startExam() {
+        const bankQuestions = await response.json();
 
-    // Select a random question
-    const randomIndex = Math.floor(Math.random() * questions.length);
+        return bankQuestions.map(question => ({
+          ...question,
+          topic: bank.topic,
+          subtopic: bank.subtopic,
+          bankPath: bank.path
+        }));
+      })
+    );
 
-    currentQuestion = questions[randomIndex];
+    questions = loadedBanks.flat();
 
-    displayQuestion(currentQuestion);
-}
+    if (questions.length === 0) {
+      throw new Error("No questions were found.");
+    }
 
-
-// Display the question
-function displayQuestion(question) {
-
-    document.getElementById("topic").textContent =
-        "Topic: " + question.topic;
-
-    document.getElementById("subtopic").textContent =
-        "Sub-topic: " + question.subtopic;
-
+    showRandomQuestion();
+  } catch (error) {
+    console.error(error);
     document.getElementById("question").textContent =
-        question.question;
-
-
-    // Display image if one exists
-    const imageContainer =
-        document.getElementById("question-image-container");
-
-    imageContainer.innerHTML = "";
-
-    if (question.image) {
-
-        const image = document.createElement("img");
-
-        image.src = question.image;
-        image.className = "question-image";
-
-        imageContainer.appendChild(image);
-    }
-
-
-    // Create answer buttons
-    const answersContainer =
-        document.getElementById("answers");
-
-    answersContainer.innerHTML = "";
-
-    for (const letter in question.answers) {
-
-        const label = document.createElement("label");
-
-        label.className = "answer";
-
-        label.innerHTML = `
-            <input type="radio" name="answer" value="${letter}">
-            <span><strong>${letter}</strong> - ${question.answers[letter]}</span>
-        `;
-
-        answersContainer.appendChild(label);
-    }
-
-
-    // Clear previous result
-    document.getElementById("result").textContent = "";
+      "Could not load the questions.";
+  }
 }
 
+function showRandomQuestion() {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  currentQuestion = questions[randomIndex];
 
-// Submit answer
-document.getElementById("submit-button").addEventListener("click", function () {
+  document.getElementById("topic").textContent = currentQuestion.topic;
+  document.getElementById("subtopic").textContent = currentQuestion.subtopic;
+  document.getElementById("question-number").textContent =
+    `Q${String(currentQuestion.id).padStart(2, "0")}`;
+  document.getElementById("question").textContent =
+    currentQuestion.question;
 
-    const selectedAnswer =
-        document.querySelector('input[name="answer"]:checked');
+  renderImage();
+  renderAnswers();
 
-    const result =
-        document.getElementById("result");
+  document.getElementById("result").textContent = "";
+}
 
+function renderImage() {
+  const container = document.getElementById("image-container");
+  container.innerHTML = "";
 
-    if (!selectedAnswer) {
+  if (!currentQuestion.image) {
+    return;
+  }
 
-        result.textContent = "Por favor selecione uma resposta.";
-        result.className = "warning";
+  const image = document.createElement("img");
 
-        return;
+  // image is relative to the question-bank JSON file.
+  const bankFolder = currentQuestion.bankPath.substring(
+    0,
+    currentQuestion.bankPath.lastIndexOf("/")
+  );
+
+  image.src = `${bankFolder}/${currentQuestion.image}`;
+  image.alt = `Diagram for question ${currentQuestion.id}`;
+
+  image.onerror = () => {
+    container.innerHTML =
+      "<p>Image not found. Check the image filename and images folder.</p>";
+  };
+
+  container.appendChild(image);
+}
+
+function renderAnswers() {
+  const container = document.getElementById("answers-container");
+  container.innerHTML = "";
+
+  if (currentQuestion.type === "multiple_choice") {
+    Object.entries(currentQuestion.answers).forEach(([letter, text]) => {
+      const label = document.createElement("label");
+      label.className = "answer-option";
+
+      label.innerHTML = `
+        <input type="radio" name="answer" value="${letter}">
+        <strong>${letter})</strong> ${text}
+      `;
+
+      container.appendChild(label);
+    });
+  } else if (currentQuestion.type === "written") {
+    const textarea = document.createElement("textarea");
+    textarea.id = "written-answer";
+    textarea.placeholder = "Write your answer here...";
+    container.appendChild(textarea);
+  }
+}
+
+function checkAnswer() {
+  if (!currentQuestion) return;
+
+  let userAnswer = "";
+
+  if (currentQuestion.type === "multiple_choice") {
+    const selected = document.querySelector(
+      'input[name="answer"]:checked'
+    );
+
+    if (!selected) {
+      document.getElementById("result").textContent =
+        "Please select an answer.";
+      return;
     }
 
+    userAnswer = selected.value;
+  } else {
+    userAnswer = document.getElementById("written-answer").value.trim();
 
-    if (selectedAnswer.value === currentQuestion.correct_answer) {
+    if (!userAnswer) {
+      document.getElementById("result").textContent =
+        "Please enter an answer.";
+      return;
+    }
+  }
 
-        result.textContent = "Correto!";
-        result.className = "correct";
+  const result = document.getElementById("result");
 
+  if (currentQuestion.type === "multiple_choice") {
+    if (
+      userAnswer.toLowerCase() ===
+      currentQuestion.correct_answer.toLowerCase()
+    ) {
+      result.textContent = "Correct!";
     } else {
-
-        result.textContent =
-            "Incorreto. A resposta correta é " +
-            currentQuestion.correct_answer + ".";
-
-        result.className = "incorrect";
+      result.textContent =
+        `Incorrect. Correct answer: ${currentQuestion.correct_answer}`;
     }
+  } else {
+    result.textContent =
+      `Model answer: ${currentQuestion.correct_answer}`;
+  }
+}
 
-});
+document
+  .getElementById("submit-button")
+  .addEventListener("click", checkAnswer);
+
+loadQuestions();
