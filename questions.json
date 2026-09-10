@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "topic": "RIEAM",
+    "subtopic": "Abalroamentos",
+    "type": "multiple_choice",
+    "question": "Embarcações à vela",
+    "image": null,
+    "answers": {
+      "A": "Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Estibordo.",
+      "B": "Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Bombordo.",
+      "C": "Quando duas embarcações à vela se aproximam roda à roda desvia-se a que vê a outra por Bombordo.",
+      "D": "Quando duas embarcações à vela se aproximam roda à roda desvia-se aquela que está amurada a Bombordo."
+    },
+    "correct_answer": "D"
+  }
+]
