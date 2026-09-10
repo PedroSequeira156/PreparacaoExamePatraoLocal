@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam Prep</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Exam Patrao Local</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <main class="container">
+    <h1>Exam Prep</h1>
 
-    <div class="container">
+    <section id="exam-info" class="card">
+      <div>
+        <span class="label">Topic</span>
+        <strong id="topic">Loading...</strong>
+      </div>
+      <div>
+        <span class="label">Subtopic</span>
+        <strong id="subtopic">Loading...</strong>
+      </div>
+      <div>
+        <span class="label">Question</span>
+        <strong id="question-number">-</strong>
+      </div>
+    </section>
 
-        <h1>Exam Prep</h1>
+    <section class="card">
+      <h2 id="question">Loading questions...</h2>
+      <div id="image-container"></div>
+      <div id="answers-container"></div>
 
-        <div id="question-container">
+      <button id="submit-button">Submit Answer</button>
+      <p id="result"></p>
+    </section>
+  </main>
 
-            <div class="question-info">
-                <span id="topic"></span>
-                <span id="subtopic"></span>
-            </div>
-
-            <h2 id="question"></h2>
-
-            <div id="question-image-container"></div>
-
-            <div id="answers"></div>
-
-            <button id="submit-button">Responder</button>
-
-            <div id="result"></div>
-
-        </div>
-
-    </div>
-
-    <script src="app.js"></script>
-
+  <script src="app.js"></script>
 </body>
 </html>
