@@ -287,10 +287,11 @@ function goToNextQuestion() {
 
 
 
+
 function checkAnswer() {
   if (!currentQuestion) return;
 
-  // Written questions are handled by the Reveal Answer button
+  // Written questions use the Reveal Answer button
   if (currentQuestion.type === "written") {
     return;
   }
@@ -326,9 +327,25 @@ function checkAnswer() {
       `Incorrect. Correct answer: ${currentQuestion.correct_answer}`;
   }
 
-  setTimeout(() => {
-    goToNextQuestion();
-  }, 1500);
+  // Disable the answer options
+  document
+    .querySelectorAll('input[name="answer"]')
+    .forEach(input => {
+      input.disabled = true;
+    });
+
+  // Hide Submit button
+  document.getElementById("submit-button").style.display = "none";
+
+  // Create Next Question button
+  const nextButton = document.createElement("button");
+  nextButton.id = "next-button";
+  nextButton.textContent = "Next Question";
+  nextButton.type = "button";
+
+  nextButton.addEventListener("click", goToNextQuestion);
+
+  document.getElementById("answers-container").appendChild(nextButton);
 }
 
 
