@@ -17,7 +17,7 @@ const QUESTION_BANKS = [
   {
     topic: "RIEAM",
     subtopic: "Sinais Sonoros",
-    path: "questions/RIEAM/Sinais Sonoros/questions.json"
+    path: "questions/RIEAM/SinaisSonoros/questions.json"
   },
   {
     topic: "Navegacao",
@@ -27,7 +27,7 @@ const QUESTION_BANKS = [
   {
     topic: "Navegacao",
     subtopic: "Agulha Magnetica",
-    path: "questions/Navegacao/Agulha Magnetica/questions.json"
+    path: "questions/Navegacao/AgulhaMagnetica/questions.json"
   }
 ];
 
