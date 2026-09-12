@@ -111,6 +111,8 @@ function retakeExam() {
   startExam();
 }
 
+
+
 function showQuestion() {
   currentQuestion = examQuestions[currentQuestionIndex];
 
@@ -130,7 +132,16 @@ function showQuestion() {
   renderAnswers();
 
   document.getElementById("result").textContent = "";
+
+  // Show Submit Answer only for multiple-choice questions
+  if (currentQuestion.type === "multiple_choice") {
+    document.getElementById("submit-button").style.display = "";
+  } else {
+    document.getElementById("submit-button").style.display = "none";
+  }
 }
+
+
 
 
 function renderImage() {
@@ -276,11 +287,10 @@ function goToNextQuestion() {
 
 
 
-
 function checkAnswer() {
   if (!currentQuestion) return;
 
-  // Written questions use the Reveal Answer button instead
+  // Written questions are handled by the Reveal Answer button
   if (currentQuestion.type === "written") {
     return;
   }
@@ -320,8 +330,6 @@ function checkAnswer() {
     goToNextQuestion();
   }, 1500);
 }
-
-
 
 
 
