@@ -106,7 +106,7 @@ function showTopicSelection() {
   rieamLabel.innerHTML = `
     <input type="checkbox" id="rieam-checkbox">
     <strong>RIEAM</strong>
-    <span>7 questions</span>
+    <span>8 questions</span>
   `;
 
   answersContainer.appendChild(rieamLabel);
