@@ -663,7 +663,7 @@ function showFinalScore() {
 
 
   document.getElementById("result").innerHTML = `
-    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 3.5</p>
+    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
     <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.6</p>
     <p><strong>Total:</strong> ${score.toFixed(1)} / 4.1</p>
   `;
