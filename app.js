@@ -97,7 +97,7 @@ function startExam() {
   const sinaisSonoros = questions
     .filter(q => q.subtopic === "Sinais Sonoros")
     .sort(() => Math.random() - 0.5)
-    .slice(0, 2);
+    .slice(0, 1);
 
   const generalidades = questions
     .filter(q => q.subtopic === "Generalidades")
