@@ -1,4 +1,3 @@
-```json
 [
   {
     "id": 1,
@@ -66,7 +65,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação A pretende atracar por EB no cais. Para isso tem que guinar para BB. Que sinal sonoro tem que emitir?",
-    "image": null,
+    "image": "questions/RIEAM_SinaisSonoros_Q05",
     "correct_answer": "Dois sons curtos (..)"
   },
   {
@@ -75,7 +74,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação B pretende ultrapassar a embarcação A por EB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
-    "image": null,
+    "image": "questions/RIEAM_SinaisSonoros_Q06",
     "correct_answer": "Embarcação B: dois sons longos e um curto (_ _ .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
   },
   {
@@ -159,7 +158,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação B pretende ultrapassar a embarcação A por BB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
-    "image": null,
+    "image": "questions/RIEAM_SinaisSonoros_Q12",
     "correct_answer": "Embarcação B: dois sons longos seguidos de dois curtos (_ _ . .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
   },
   {
@@ -183,7 +182,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação A pretende atracar por BB no cais. Para isso tem que guinar para EB. Que sinal sonoro tem que emitir?",
-    "image": null,
+    "image": "questions/RIEAM_SinaisSonoros_Q14",
     "correct_answer": "Um som curto (.)"
   },
   {
@@ -210,5 +209,55 @@
     "image": null,
     "answers": {
       "A": "Sequência, com intervalos não superiores a um minuto, de toques de sino em cadência rápida não superior a 5 segundos.",
-      "B": "Sequência, com intervalos não superiores a um minuto, de toques d
-```
+      "B": "Sequência, com intervalos não superiores a um minuto, de toques de sino em cadência rápida não superior a 10 segundos.",
+      "C": "Sequência, com intervalos não superiores a dois minutos, de toques de sino em cadência rápida não superior a 10 segundos.",
+      "D": "Sequência, com intervalos não superiores a dois minutos, de toques de sino em cadência rápida não superior a 5 segundos."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 17,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Tanto de dia como de noite, numa zona de visibilidade reduzida ou nas suas proximidades, um navio deve tocar o sino a vante, em cadência rápida durante cerca de 5 segundos, em intervalos não superiores a um minuto quando se trata de:",
+    "image": null,
+    "answers": {
+      "A": "Um navio pairando com comprimento inferior a 100 metros",
+      "B": "Um navio encalhado com comprimento igual ou superior a 100 metros",
+      "C": "Um navio fundeado com comprimento inferior a 100 metros",
+      "D": "Um navio encalhado com comprimento inferior a 100 metros"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 18,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "A expressão som prolongado designa um som de apito com a duração de:",
+    "image": null,
+    "answers": {
+      "A": "2 a 4 segundos",
+      "B": "3 a 5 segundos",
+      "C": "4 a 6 segundos",
+      "D": "5 a 7 segundos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 19,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "A expressão som curto designa um som de apito com a duração de cerca de:",
+    "image": null,
+    "answers": {
+      "A": "Meio segundo",
+      "B": "Um segundo",
+      "C": "Um segundo e meio",
+      "D": "Dois segundos"
+    },
+    "correct_answer": "B"
+  }
+]
