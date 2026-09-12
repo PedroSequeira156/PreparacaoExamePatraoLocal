@@ -1,0 +1,214 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica que pretende guinar para EB deve indicá-lo da seguinte forma:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto",
+      "B": "Dois sons longos",
+      "C": "Um som longo",
+      "D": "Dois sons curtos"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 2,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica a rebocar e visibilidade reduzida deve emitir o seguinte sinal sonoro:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto com intervalos que não ultrapassem os dois minutos",
+      "B": "Dois sons longos com intervalos que não ultrapassem os dois minutos",
+      "C": "Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos",
+      "D": "Três sons curtos com intervalos que não ultrapassem os dois minutos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 3,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica que pretende guinar para BB deve indicá-lo da seguinte forma:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto",
+      "B": "Dois sons longos",
+      "C": "Um som longo",
+      "D": "Dois sons curtos"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 4,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica desgovernado e visibilidade reduzida deve emitir o seguinte sinal sonoro:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto com intervalos que não ultrapassem os dois minutos.",
+      "B": "Dois sons longos com intervalos que não ultrapassem os dois minutos.",
+      "C": "Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos.",
+      "D": "Três sons curtos com intervalos que não ultrapassem os dois minutos."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "written",
+    "question": "A embarcação A pretende atracar por EB no cais. Para isso tem que guinar para BB. Que sinal sonoro tem que emitir?",
+    "image": null,
+    "correct_answer": "Dois sons curtos (..)"
+  },
+  {
+    "id": 6,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "written",
+    "question": "A embarcação B pretende ultrapassar a embarcação A por EB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
+    "image": null,
+    "correct_answer": "Embarcação B: dois sons longos e um curto (_ _ .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
+  },
+  {
+    "id": 7,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica navegando sem seguimento em condições de visibilidade reduzida, deve emitir o seguinte sinal sonoro:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto com intervalo que não ultrapasse os dois minutos",
+      "B": "Um som prolongado com intervalo que não ultrapasse os dois minutos",
+      "C": "Dois sons prolongados com intervalos que não ultrapassem os dois minutos",
+      "D": "Três sons curtos com intervalos que não ultrapassem os dois minutos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 8,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de comprimento igual ou superior a 12 metros e inferior a 20 metros deve dispor de material de sinalização sonora definido na alínea:",
+    "image": null,
+    "answers": {
+      "A": "Apito, sino e gongo",
+      "B": "Apito, sino e gongo opcional",
+      "C": "Apito, sino opcional e gongo opcional",
+      "D": "Apito, sino e gongo todos opcionais"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 9,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Tanto de dia como de noite, numa zona de visibilidade reduzida ou nas suas proximidades, um navio de propulsão mecânica pairando (com as máquinas paradas e sem seguimento) deve emitir, com intervalos não superiores a dois minutos:",
+    "image": null,
+    "answers": {
+      "A": "Um som prolongado",
+      "B": "Dois sons prolongados",
+      "C": "Três sons prolongados",
+      "D": "Quatro sons prolongados"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 10,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica com seguimento e visibilidade reduzida, deve emitir o seguinte sinal sonoro:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto com intervalos que não ultrapassem os dois minutos.",
+      "B": "Dois sons prolongados com intervalos que não ultrapassem os dois minutos.",
+      "C": "Um som prolongado com intervalos que não ultrapassem os dois minutos.",
+      "D": "Três sons curtos com intervalos que não ultrapassem os dois minutos."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica na faina da pesca e visibilidade reduzida deve emitir o seguinte sinal sonoro:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto com intervalos que não ultrapassem os dois minutos.",
+      "B": "Dois sons longos com intervalos que não ultrapassem os dois minutos.",
+      "C": "Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos.",
+      "D": "Três sons curtos com intervalos que não ultrapassem os dois minutos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 12,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "written",
+    "question": "A embarcação B pretende ultrapassar a embarcação A por BB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
+    "image": null,
+    "correct_answer": "Embarcação B: dois sons longos seguidos de dois curtos (_ _ . .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
+  },
+  {
+    "id": 13,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica com as máquinas a trabalhar a ré deve indicar a manobra da seguinte forma:",
+    "image": null,
+    "answers": {
+      "A": "Um som curto.",
+      "B": "Dois sons longos.",
+      "C": "Um som longo.",
+      "D": "Três sons curtos."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 14,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "written",
+    "question": "A embarcação A pretende atracar por BB no cais. Para isso tem que guinar para EB. Que sinal sonoro tem que emitir?",
+    "image": null,
+    "correct_answer": "Um som curto (.)"
+  },
+  {
+    "id": 15,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um apito instalado a bordo de um navio de comprimento inferior a 20 metros deve assegurar na direcção de máxima intensidade um alcance sonoro de:",
+    "image": null,
+    "answers": {
+      "A": "2,0 milhas",
+      "B": "1,5 milhas",
+      "C": "1,0 milha",
+      "D": "0,5 milha"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 16,
+    "topic": "RIEAM",
+    "subtopic": "Sinais Sonoros",
+    "type": "multiple_choice",
+    "question": "Um navio de propulsão mecânica (com comprimento inferior a 100 metros) fundeado em condições de visibilidade reduzida, deve emitir os seguintes sinais sonoros:",
+    "image": null,
+    "answers": {
+      "A": "Sequência, com intervalos não superiores a um minuto, de toques de sino em cadência rápida não superior a 5 segundos.",
+      "B": "Sequência, com intervalos não superiores a um minuto, de toques d
+```
