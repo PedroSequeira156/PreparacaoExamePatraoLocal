@@ -124,7 +124,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Complete a frase: Embarcação _____________ com um comprimento ______________ a 200 metros.",
+    "question": "Imagen com navio com baloa biconico.\nComplete a frase: Embarcação _____________ com um comprimento ______________ a 200 metros.",
     "image": null,
     "correct_answer": "a rebocar; de reboque superior"
   },
@@ -133,7 +133,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagen com navio com dois baloes conicos unidos pelo vertice.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio em faina de pesca"
   },
@@ -142,7 +142,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagen com navio com dois baloes esfericos dispostos verticalmente.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio desgovernado"
   },
@@ -151,7 +151,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagen com navio com baloes esferico-biconico-esferico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio com capacidade de manobra reduzida"
   },
@@ -160,7 +160,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Que depreende ao avistar estes sinais içados no mastro deste navio?",
+    "question": "Imagen com navio com tres baloes esfericos dispostos verticalmente.\nQue depreende ao avistar estes sinais içados no mastro deste navio?",
     "image": null,
     "correct_answer": "Navio encalhado"
   },
@@ -169,7 +169,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagen com navio com balao cilindrico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque é um navio condicionado pelo calado"
   },
@@ -193,9 +193,9 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Um navio na faina de pesca (com um comprimento superior a 20 metros) de dia, como deve tal assinalar? Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Um navio na faina de pesca (com um comprimento superior a 20 metros) de dia, como deve tal assinalar? ",
     "image": null,
-    "correct_answer": ""
+    "correct_answer": "dois baloes conicos unidos pelo vertice"
   },
   {
     "id": 17,
@@ -217,7 +217,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Avista este navio pelo seu BB e verifica estar em rota de colisão com o seu navio. Tem que manobrar? Porquê?",
+    "question": "Imagem com navio com balao biconico.\nAvista este navio pelo seu BB e verifica estar em rota de colisão com o seu navio. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Não; Porque é um navio de propulsão mecânica (por acaso encontra-se a rebocar)"
   },
@@ -273,7 +273,7 @@
     "type": "written",
     "question": "Desenhe na figura os balões correspondentes a um navio condicionado pelo seu calado.",
     "image": null,
-    "correct_answer": ""
+    "correct_answer": "Balao cilindrico"
   },
   {
     "id": 23,
@@ -282,7 +282,7 @@
     "type": "written",
     "question": "Desenhe na figura os balões correspondentes a uma embarcação encalhada.",
     "image": null,
-    "correct_answer": ""
+    "correct_answer": "3 baloes esfericos"
   },
   {
     "id": 24,
@@ -291,7 +291,7 @@
     "type": "written",
     "question": "Desenhe na figura os balões correspondentes a um navio desgovernado.",
     "image": null,
-    "correct_answer": ""
+    "correct_answer": "2 baloes esfericos"
   },
   {
     "id": 25,
@@ -300,6 +300,6 @@
     "type": "written",
     "question": "Desenhe na figura os balões correspondentes a um navio a rebocar.",
     "image": null,
-    "correct_answer": ""
+    "correct_answer": "Balao biconico"
   }
 ]
