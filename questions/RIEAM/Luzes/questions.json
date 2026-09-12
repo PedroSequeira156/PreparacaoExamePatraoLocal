@@ -1,1 +1,386 @@
-a
+[
+  {
+    "id": 1,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica com um comprimento superior a 50 metros, a navegar de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Farol de luz branca no mastro de vante, farol de luz vermelha a BB e farol de luz verde a EB.",
+      "B": "Farol de luz branca no mastro de vante, farol de luz branca no mastro de ré, farol de luz vermelha a EB, farol de luz verde a BB e farol de luz branca à popa.",
+      "C": "Farol de luz branca no mastro de vante, farol de luz branca no mastro de ré, farol de luz vermelha a BB, farol de luz verde a EB e farol de luz branca à popa.",
+      "D": "Farol de luz branca no mastro de vante, farol de luz vermelha a BB, farol de luz verde a EB e farol de luz amarela à popa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com comprimento inferior a 50 metros, na faina da pesca, de noite, a arrastar, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca, faróis de navegação e um farol de luz branca mais alto e a ré do farol de luz verde.",
+      "B": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação.",
+      "C": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação.",
+      "D": "Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca, faróis de navegação."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 3,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica desgovernada e sem seguimento, de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "B": "Três luzes vermelhas no mastro num arco de 360º.",
+      "C": "Duas luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "D": "Duas luzes vermelhas no mastro num arco de 360º, dispostas verticalmente."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 4,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com mais de 50 e menos de 100 metros, fundeada de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Um farol de luz branca à popa.",
+      "B": "Um farol de luz branca à proa.",
+      "C": "Um farol de luz branca à proa e outro à popa.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com menos de 50 metros, fundeada de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Um farol de luz branca.",
+      "B": "Um farol de luz branca à proa.",
+      "C": "Um farol de luz branca à popa e outro à proa.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 6,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Manter o rumo e a velocidade. Porque é um navio de propulsão mecânica que por acaso se encontra a rebocar com um reboque superior a 200 m."
+  },
+  {
+    "id": 7,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio condicionado pelo calado."
+  },
+  {
+    "id": 8,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio em faina de pesca de arrasto."
+  },
+  {
+    "id": 9,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio em faina de pesca de arrasto."
+  },
+  {
+    "id": 10,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, esta embarcação que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio à vela com mais de 20 metros."
+  },
+  {
+    "id": 11,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, esta embarcação que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me para EB. Porque é um navio de propulsão mecânica que vem roda a roda. Por acaso é um barco de pilotos."
+  },
+  {
+    "id": 12,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um veleiro com mais de 20 metros avistado por EB."
+  },
+  {
+    "id": 13,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação na faina da pesca, estendendo a arte da pesca numa distância inferior a 150 metros a partir do navio, de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca e faróis de navegação.",
+      "B": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação.",
+      "C": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação.",
+      "D": "Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca e faróis de navegação."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 14,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica, condicionada pelo seu calado, a navegar de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três faróis vermelhos dispostos verticalmente com arco de visibilidade de 225º e faróis de navegação.",
+      "B": "Três faróis vermelhos dispostos verticalmente com arco de visibilidade de 360º e faróis de navegação.",
+      "C": "Dois faróis vermelhos dispostos verticalmente com arco de visibilidade de 225º e faróis de navegação.",
+      "D": "Dois faróis vermelhos dispostos verticalmente com arco de visibilidade de 360º e faróis de navegação."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 15,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Trata-se de um navio de propulsão mecânica com menos de 50 m, em situação de roda a roda, logo, devo guinar para EB."
+  },
+  {
+    "id": 16,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação dos pilotos, a navegar de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca e faróis de navegação.",
+      "B": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação.",
+      "C": "Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação.",
+      "D": "Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca e faróis de navegação."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 17,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão com o seu, que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque estou a vê-lo pela amura de EB; é um navio de propulsão mecânica com mais de 50 metros que se apresenta por Estibordo."
+  },
+  {
+    "id": 18,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica, a rebocar de noite, com um reboque inferior a 200 metros, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "B": "Dois faróis de luz branca dispostos verticalmente, farol de luz vermelha a BB, farol de luz verde a EB, farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.",
+      "C": "Dois faróis de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.",
+      "D": "Um farol de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 19,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão com o seu, que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é uma embarcação dos pilotos pela amura de EB."
+  },
+  {
+    "id": 20,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque se trata de um navio desgovernado sem seguimento."
+  },
+  {
+    "id": 21,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica com capacidade de manobra reduzida, sem seguimento, de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três luzes vermelhas no mastro visíveis em todo o horizonte, dispostas verticalmente.",
+      "B": "Três luzes brancas no mastro visíveis em todo o horizonte, dispostas verticalmente.",
+      "C": "Duas luzes vermelhas no mastro visíveis em todo o horizonte, dispostas verticalmente.",
+      "D": "Três luzes, sendo a do meio de luz branca e as outras duas de luz vermelha, visíveis em todo o horizonte e dispostas verticalmente."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 22,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio à vela com mais de 20 metros."
+  },
+  {
+    "id": 23,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação à vela, com mais de 20 metros, a navegar à noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Farol vermelho no mastro de 360º de visibilidade e faróis de navegação.",
+      "B": "Faróis de navegação, podendo mostrar dois faróis visíveis em todo o horizonte, sendo o superior vermelho e o inferior verde.",
+      "C": "Dois faróis visíveis em todo o horizonte, sendo o superior vermelho e o inferior verde.",
+      "D": "Faróis de navegação, podendo mostrar dois faróis visíveis em todo o horizonte, sendo o superior verde e o inferior vermelho."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 24,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio em faina de pesca."
+  },
+  {
+    "id": 25,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio de propulsão mecânica que se apresenta por Estibordo. Por acaso está a rebocar com um reboque inferior a 200 metros."
+  },
+  {
+    "id": 26,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, este navio em rumo de colisão que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque se trata de um navio encalhado."
+  },
+  {
+    "id": 27,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com mais de 100 metros, fundeada de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Um farol de luz branca à popa.",
+      "B": "Um farol de luz branca à proa e as luzes do convés acesas.",
+      "C": "Um farol de luz branca à popa, outro à proa e as luzes do convés acesas.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 28,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica, a rebocar de noite, com um reboque superior a 200 metros, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "B": "Dois faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.",
+      "C": "Três faróis de luz branca dispostos verticalmente, farol de luz vermelha a BB, farol de luz verde a EB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.",
+      "D": "Três faróis de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 29,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação de propulsão mecânica com capacidade de manobra reduzida, a navegar de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três luzes vermelhas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "B": "Três luzes vermelhas no mastro num arco de 360º.",
+      "C": "Duas luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.",
+      "D": "Três luzes, visíveis em todo o horizonte dispostas verticalmente, sendo a do meio de luz branca e a superior e a inferior de luz vermelha, farol ou faróis de mastro, farol de borda e farol de popa."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 30,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "written",
+    "question": "Vai a navegar a motor. Ao avistar, de noite, esta embarcação que deve fazer? Porquê?",
+    "image": null,
+    "correct_answer": "Desviar-me. Porque é um navio em faina de pesca."
+  },
+  {
+    "id": 31,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "Uma embarcação encalhada, com comprimento inferior a 50 metros, de noite, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Três luzes vermelhas dispostas verticalmente.",
+      "B": "Duas luzes vermelhas dispostas verticalmente.",
+      "C": "Três luzes vermelhas dispostas verticalmente e uma luz branca à proa.",
+      "D": "Duas luzes vermelhas dispostas verticalmente e uma luz branca à proa."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 32,
+    "topic": "RIEAM",
+    "subtopic": "Luzes",
+    "type": "multiple_choice",
+    "question": "O farol de borda é visível entre a linha de proa-popa e:",
+    "image": null,
+    "answers": {
+      "A": "90º para cada bordo.",
+      "B": "12,5º para ré do través.",
+      "C": "122,5º para cada bordo.",
+      "D": "112,5º para cada bordo."
+    },
+    "correct_answer": "D"
+  }
+]
