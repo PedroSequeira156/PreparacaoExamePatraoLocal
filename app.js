@@ -26,6 +26,11 @@ const QUESTION_BANKS = [
     topic: "Navegacao",
     subtopic: "Generalidades",
     path: "questions/Navegacao/Generalidades/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Agulha Magnetica",
+    path: "questions/Navegacao/AgulhaMagnetica/questions.json"
   }
 ];
 
@@ -89,7 +94,7 @@ function startExam() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
-  const sinaissonoros = questions
+  const sinaisSonoros = questions
     .filter(q => q.subtopic === "Sinais Sonoros")
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
@@ -99,12 +104,18 @@ function startExam() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 1);
 
+  const agulhaMagnetica = questions
+    .filter(q => q.subtopic === "Agulha Magnetica")
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 1);
+
   examQuestions = [
     ...abalroamentos,
     ...luzes,
     ...baloes,
-    ...sinaissonoros,
-    ...generalidades
+    ...sinaisSonoros,
+    ...generalidades,
+    ...agulhaMagnetica
   ];
 
   // Mix all questions together
@@ -359,10 +370,7 @@ function checkAnswer() {
   document.getElementById("answers-container").appendChild(nextButton);
 }
 
-
-
 function showFinalScore() {
-  // Calculate scores by topic
   let rieamScore = 0;
   let navegacaoScore = 0;
 
@@ -388,14 +396,12 @@ function showFinalScore() {
 
   document.getElementById("result").innerHTML = `
     <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
-    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.3</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.3</p>
+    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.6</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.6</p>
   `;
 
-  // Hide the Submit Answer button
   document.getElementById("submit-button").style.display = "none";
 
-  // Create Retake Exam button
   const retakeButton = document.createElement("button");
   retakeButton.id = "retake-button";
   retakeButton.textContent = "Retake Exam";
@@ -405,8 +411,6 @@ function showFinalScore() {
 
   document.getElementById("answers-container").appendChild(retakeButton);
 }
-
-
 
 
 document
