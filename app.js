@@ -280,6 +280,7 @@ function checkAnswer() {
   }, 1500);
 }
 
+
 function showFinalScore() {
   document.getElementById("topic").textContent = "";
   document.getElementById("subtopic").textContent = "";
@@ -294,7 +295,10 @@ function showFinalScore() {
   document.getElementById("result").textContent =
     `Final score: ${score} / 2.5`;
 
-  // Create retake button
+  // Hide the Submit Answer button
+  document.getElementById("submit-button").style.display = "none";
+
+  // Create Retake Exam button
   const retakeButton = document.createElement("button");
   retakeButton.id = "retake-button";
   retakeButton.textContent = "Retake Exam";
@@ -303,10 +307,9 @@ function showFinalScore() {
   retakeButton.addEventListener("click", retakeExam);
 
   document.getElementById("answers-container").appendChild(retakeButton);
-
-  // Hide the normal submit button
-  document.getElementById("submit-button").style.display = "none";
 }
+
+
 
 document
   .getElementById("submit-button")
