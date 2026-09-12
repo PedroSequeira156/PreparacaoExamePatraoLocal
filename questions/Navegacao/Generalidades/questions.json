@@ -1,0 +1,401 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Defina Paralelos.",
+    "image": null,
+    "answers": {
+      "A": "Círculos máximos paralelos ao Equador.",
+      "B": "Círculos menores que passam pelos Pólos.",
+      "C": "Círculos menores paralelos ao Equador.",
+      "D": "Círculos paralelos entre si."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Diga o que entende por diferença de Latitude.",
+    "image": null,
+    "answers": {
+      "A": "É a medida do arco do meridiano entre duas Longitudes menores que 90º.",
+      "B": "É a medida do arco do meridiano entre duas Latitudes menores que 180º.",
+      "C": "É a medida do arco do Equador entre duas Latitudes menores que 180º.",
+      "D": "É a medida do arco do meridiano entre duas Latitudes menores que 90º."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Os círculos máximos que passam pelos Pólos, perpendiculares ao Equador, designam-se por?",
+    "image": null,
+    "answers": {
+      "A": "Paralelos.",
+      "B": "Meridianos.",
+      "C": "Círculos máximos.",
+      "D": "Círculos menores."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O que entende por Meridiano do Lugar?",
+    "image": null,
+    "answers": {
+      "A": "Círculo máximo que passa pelo local do observador.",
+      "B": "Círculo menor perpendicular ao Equador.",
+      "C": "Círculo menor que passa pelo local do observador.",
+      "D": "Círculo máximo paralelo ao Equador."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O que entende por Paralelo do Lugar?",
+    "image": null,
+    "answers": {
+      "A": "Círculo máximo que passa pelo local do observador.",
+      "B": "Círculo menor perpendicular ao Equador.",
+      "C": "Círculo menor que passa pelo local do observador.",
+      "D": "Círculo máximo paralelo ao Equador."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Defina Latitude do Lugar.",
+    "image": null,
+    "answers": {
+      "A": "Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.",
+      "B": "Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.",
+      "C": "Arco do Equador compreendido entre o Equador e o paralelo do Lugar.",
+      "D": "Arco do meridiano compreendido entre o Equador e o paralelo do Lugar."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Defina Longitude do Lugar.",
+    "image": null,
+    "answers": {
+      "A": "Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.",
+      "B": "Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.",
+      "C": "Arco do Equador compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar.",
+      "D": "Arco do Equador compreendido entre o Meridiano de Greenwich e o paralelo do Lugar."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O Nó na náutica corresponde a quantos metros?",
+    "image": null,
+    "answers": {
+      "A": "1862 metros",
+      "B": "1952 metros",
+      "C": "1852 metros",
+      "D": "1752 metros"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Diga o que entende por diferença de Longitude.",
+    "image": null,
+    "answers": {
+      "A": "É a medida do arco do meridiano entre duas Longitudes menores que 90º.",
+      "B": "É a medida do arco do meridiano entre duas Latitudes menores que 180º.",
+      "C": "É a medida do arco do Equador entre duas Longitudes menores que 180º.",
+      "D": "É a medida do arco do meridiano entre duas Latitudes menores que 90º."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O arco do Equador, compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar, chama-se?",
+    "image": null,
+    "answers": {
+      "A": "Longitude",
+      "B": "Diferença de Latitude",
+      "C": "Latitude",
+      "D": "Diferença de Longitude"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Ao navegar sobre um enfiamento que está à nossa proa, se a marca posterior estiver à direita da marca anterior, para voltar a navegar no enfiamento, deve guinar para:",
+    "image": null,
+    "correct_answer": "Bombordo"
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O arco do Meridiano do Lugar compreendido entre o Equador e o Lugar chama-se:",
+    "image": null,
+    "answers": {
+      "A": "Latitude do Lugar.",
+      "B": "Longitude do Lugar.",
+      "C": "Ângulo no Pólo."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Como se designa e o que representa uma milha náutica por hora?",
+    "image": null,
+    "correct_answer": "Designa-se por NÓ e representa 1852m por hora ou seja um minuto de Latitude por hora."
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Indique a que instrumento recorre para efectuar uma marcação.",
+    "image": null,
+    "correct_answer": "Taxímetro"
+  },
+  {
+    "id": 15,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O ângulo entre a Proa e o Rumo chama-se?",
+    "image": null,
+    "answers": {
+      "A": "Marcação.",
+      "B": "Abatimento.",
+      "C": "Azimute.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 16,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Qual a diferença de longitude entre dois lugares:",
+    "image": null,
+    "answers": {
+      "A": "É a medida do arco do meridiano entre duas Longitudes menores que 90º.",
+      "B": "É a medida do arco do meridiano entre duas Latitudes menores que 180º.",
+      "C": "É a medida do arco do Equador entre duas Longitudes menores que 180º.",
+      "D": "É a medida do arco do meridiano entre duas Latitudes menores que 90º."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 17,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "A quantos metros corresponde uma milha marítima?",
+    "image": null,
+    "answers": {
+      "A": "1862 metros",
+      "B": "1952 metros",
+      "C": "1852 metros",
+      "D": "1752 metros"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 18,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Numa Carta de Mercator se a variação da escala das Latitudes cresce para o Sul estamos:",
+    "image": null,
+    "answers": {
+      "A": "A Norte do Equador",
+      "B": "A Sul do Equador",
+      "C": "Nenhuma se aplica"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 19,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Uma Marcação é uma LDP do tipo:",
+    "image": null,
+    "answers": {
+      "A": "Distância",
+      "B": "Sentido",
+      "C": "Segmento capaz",
+      "D": "Direcção"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 20,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Aos pontos em que o eixo da Terra intersecta a esfera terrestre, dá-se o nome de:",
+    "image": null,
+    "answers": {
+      "A": "Coordenadas terrestres",
+      "B": "Pólos",
+      "C": "Vertical do lugar",
+      "D": "Zénites"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 21,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Na esfera terrestre, o único círculo máximo perpendicular ao eixo da Terra tem o nome de:",
+    "image": null,
+    "correct_answer": "Equador"
+  },
+  {
+    "id": 22,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Uma LDP do tipo distância obtém-se a partir de:",
+    "image": null,
+    "answers": {
+      "A": "Uma sonda",
+      "B": "Um radar",
+      "C": "Um aparelho de marcar"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 23,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "De entre as opções abaixo indicadas, escolha o melhor cruzamento de duas LDP(s):",
+    "image": null,
+    "answers": {
+      "A": "50º",
+      "B": "30º",
+      "C": "90º",
+      "D": "70º"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 24,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "O que entende por Marcação?",
+    "image": null,
+    "correct_answer": "É o ângulo entre a proa e o objecto considerado."
+  },
+  {
+    "id": 25,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "O que entende por Meridiano do Lugar?",
+    "image": null,
+    "answers": {
+      "A": "Círculo máximo que passa pelos Pólos e pelo local do observador.",
+      "B": "Círculo menor paralelo ao Equador que passa pelo local do observador.",
+      "C": "Círculo máximo paralelo ao Equador.",
+      "D": "Nenhuma se aplica"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 26,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Explique como determina a posição Carteada:",
+    "image": null,
+    "correct_answer": "Partindo de um ponto, entro com a proa verdadeira e a velocidade de superfície durante o tempo considerado e obtenho a posição carteada. Não entro com o vento e a corrente."
+  },
+  {
+    "id": 27,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Qualquer círculo máximo que contenham os Pólos designa-se por?",
+    "image": null,
+    "correct_answer": "Meridiano."
+  },
+  {
+    "id": 28,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Uma LDP tipo direcção obtém-se a partir de:",
+    "image": null,
+    "answers": {
+      "A": "Uma sonda",
+      "B": "Um sextante",
+      "C": "Um aparelho de marcar",
+      "D": "Nenhuma se aplica"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 29,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "written",
+    "question": "Se um observador avista para o mesmo lado dois objectos em linha, isso significa que, em relação aos mesmos, o observador está no seu:",
+    "image": null,
+    "correct_answer": "Enfiamento"
+  },
+  {
+    "id": 30,
+    "topic": "Navegacao",
+    "subtopic": "Generalidades",
+    "type": "multiple_choice",
+    "question": "Qual o tipo de navegação que exige maior precisão e rapidez no cálculo da sua posição:",
+    "image": null,
+    "answers": {
+      "A": "Navegação costeira",
+      "B": "Navegação em águas restritas",
+      "C": "Navegação oceânica",
+      "D": "Geonavegação"
+    },
+    "correct_answer": "B"
+  }
+]
