@@ -14,7 +14,7 @@ const QUESTION_BANKS = [
   },
   {
     topic: "RIEAM",
-    subtopic: "Baloes",
+    subtopic: "Balões",
     path: "questions/RIEAM/Baloes/questions.json"
   },
   {
@@ -80,7 +80,7 @@ function startExam() {
     .slice(0, 2);
 
   const baloes = questions
-    .filter(q => q.subtopic === "Baloes")
+    .filter(q => q.subtopic === "Balões")
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
