@@ -11,7 +11,12 @@ const QUESTION_BANKS = [
     topic: "RIEAM",
     subtopic: "Luzes",
     path: "questions/RIEAM/Luzes/questions.json"
-  }
+  },
+  {
+    topic: "RIEAM",
+    subtopic: "Balões",
+    path: "questions/RIEAM/Balões/questions.json"
+}
 ];
 
 let questions = [];
