@@ -1,6 +1,3 @@
-// Question banks are organised by topic/subtopic.
-// Add another entry here when you create a new question-bank folder.
-
 const QUESTION_BANKS = [
   {
     topic: "RIEAM",
@@ -15,12 +12,12 @@ const QUESTION_BANKS = [
   {
     topic: "RIEAM",
     subtopic: "Balões",
-    path: "questions/RIEAM/Baloes/questions.json"
+    path: "questions/RIEAM/Balões/questions.json"
   },
   {
     topic: "RIEAM",
     subtopic: "Sinais Sonoros",
-    path: "questions/RIEAM/SinaisSonoros/questions.json"
+    path: "questions/RIEAM/Sinais Sonoros/questions.json"
   },
   {
     topic: "Navegacao",
@@ -30,7 +27,7 @@ const QUESTION_BANKS = [
   {
     topic: "Navegacao",
     subtopic: "Agulha Magnetica",
-    path: "questions/Navegacao/AgulhaMagnetica/questions.json"
+    path: "questions/Navegacao/Agulha Magnetica/questions.json"
   }
 ];
 
@@ -40,6 +37,10 @@ let currentQuestion = null;
 let currentQuestionIndex = 0;
 let score = 0;
 
+
+// ===============================
+// LOAD QUESTIONS
+// ===============================
 
 async function loadQuestions() {
   try {
@@ -68,57 +69,165 @@ async function loadQuestions() {
       throw new Error("No questions were found.");
     }
 
-    startExam();
-    
+    showTopicSelection();
+
   } catch (error) {
     console.error(error);
+
     document.getElementById("question").textContent =
       "Could not load the questions.";
   }
 }
 
 
-function startExam() {
-  const abalroamentos = questions
-    .filter(q => q.subtopic === "Abalroamentos")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
+// ===============================
+// TOPIC SELECTION
+// ===============================
 
-  const luzes = questions
-    .filter(q => q.subtopic === "Luzes")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 2);
+function showTopicSelection() {
+  document.getElementById("topic").textContent = "";
+  document.getElementById("subtopic").textContent = "";
+  document.getElementById("question-number").textContent = "";
 
-  const baloes = questions
-    .filter(q => q.subtopic === "Balões")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 2);
+  document.getElementById("question").textContent =
+    "Choose the topics you want to be examined on:";
 
-  const sinaisSonoros = questions
-    .filter(q => q.subtopic === "Sinais Sonoros")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 1);
+  document.getElementById("image-container").innerHTML = "";
 
-  const generalidades = questions
-    .filter(q => q.subtopic === "Generalidades")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 1);
+  const answersContainer =
+    document.getElementById("answers-container");
 
-  const agulhaMagnetica = questions
-    .filter(q => q.subtopic === "Agulha Magnetica")
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 1);
+  answersContainer.innerHTML = "";
 
-  examQuestions = [
-    ...abalroamentos,
-    ...luzes,
-    ...baloes,
-    ...sinaisSonoros,
-    ...generalidades,
-    ...agulhaMagnetica
-  ];
+  // RIEAM checkbox
+  const rieamLabel = document.createElement("label");
+  rieamLabel.className = "answer-option";
 
-  // Mix all questions together
+  rieamLabel.innerHTML = `
+    <input type="checkbox" id="rieam-checkbox">
+    <strong>RIEAM</strong>
+    <span>7 questions</span>
+  `;
+
+  answersContainer.appendChild(rieamLabel);
+
+
+  // Navegacao checkbox
+  const navegacaoLabel = document.createElement("label");
+  navegacaoLabel.className = "answer-option";
+
+  navegacaoLabel.innerHTML = `
+    <input type="checkbox" id="navegacao-checkbox">
+    <strong>Navegacao</strong>
+    <span>2 questions</span>
+  `;
+
+  answersContainer.appendChild(navegacaoLabel);
+
+
+  // Start button
+  const startButton = document.createElement("button");
+
+  startButton.id = "start-exam-button";
+  startButton.type = "button";
+  startButton.textContent = "Start Exam";
+
+  startButton.addEventListener("click", () => {
+
+    const selectedTopics = [];
+
+    if (document.getElementById("rieam-checkbox").checked) {
+      selectedTopics.push("RIEAM");
+    }
+
+    if (document.getElementById("navegacao-checkbox").checked) {
+      selectedTopics.push("Navegacao");
+    }
+
+    if (selectedTopics.length === 0) {
+      document.getElementById("result").textContent =
+        "Please select at least one topic.";
+
+      return;
+    }
+
+    startExam(selectedTopics);
+  });
+
+  answersContainer.appendChild(startButton);
+
+  document.getElementById("submit-button").style.display = "none";
+  document.getElementById("result").textContent = "";
+}
+
+
+// ===============================
+// START EXAM
+// ===============================
+
+function startExam(selectedTopics) {
+
+  examQuestions = [];
+
+  // -------------------------------
+  // RIEAM
+  // -------------------------------
+
+  if (selectedTopics.includes("RIEAM")) {
+
+    const abalroamentos = questions
+      .filter(q => q.subtopic === "Abalroamentos")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3);
+
+    const luzes = questions
+      .filter(q => q.subtopic === "Luzes")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 2);
+
+    const baloes = questions
+      .filter(q => q.subtopic === "Balões")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 2);
+
+    const sinaisSonoros = questions
+      .filter(q => q.subtopic === "Sinais Sonoros")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    examQuestions.push(
+      ...abalroamentos,
+      ...luzes,
+      ...baloes,
+      ...sinaisSonoros
+    );
+  }
+
+
+  // -------------------------------
+  // NAVEGACAO
+  // -------------------------------
+
+  if (selectedTopics.includes("Navegacao")) {
+
+    const generalidades = questions
+      .filter(q => q.subtopic === "Generalidades")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    const agulhaMagnetica = questions
+      .filter(q => q.subtopic === "Agulha Magnetica")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    examQuestions.push(
+      ...generalidades,
+      ...agulhaMagnetica
+    );
+  }
+
+
+  // Mix all selected questions together
   examQuestions.sort(() => Math.random() - 0.5);
 
   currentQuestionIndex = 0;
@@ -129,13 +238,13 @@ function startExam() {
   showQuestion();
 }
 
-function retakeExam() {
-  startExam();
-}
 
-
+// ===============================
+// SHOW QUESTION
+// ===============================
 
 function showQuestion() {
+
   currentQuestion = examQuestions[currentQuestionIndex];
 
   document.getElementById("topic").textContent =
@@ -145,7 +254,7 @@ function showQuestion() {
     currentQuestion.subtopic;
 
   document.getElementById("question-number").textContent =
-    `Q${currentQuestionIndex + 1}`;
+    `Q${currentQuestionIndex + 1} / ${examQuestions.length}`;
 
   document.getElementById("question").textContent =
     currentQuestion.question;
@@ -164,10 +273,15 @@ function showQuestion() {
 }
 
 
-
+// ===============================
+// IMAGE
+// ===============================
 
 function renderImage() {
-  const container = document.getElementById("image-container");
+
+  const container =
+    document.getElementById("image-container");
+
   container.innerHTML = "";
 
   if (!currentQuestion.image) {
@@ -176,14 +290,16 @@ function renderImage() {
 
   const image = document.createElement("img");
 
-  // image is relative to the question-bank JSON file.
   const bankFolder = currentQuestion.bankPath.substring(
     0,
     currentQuestion.bankPath.lastIndexOf("/")
   );
 
-  image.src = `${bankFolder}/${currentQuestion.image}`;
-  image.alt = `Diagram for question ${currentQuestion.id}`;
+  image.src =
+    `${bankFolder}/${currentQuestion.image}`;
+
+  image.alt =
+    `Diagram for question ${currentQuestion.id}`;
 
   image.onerror = () => {
     container.innerHTML =
@@ -194,60 +310,202 @@ function renderImage() {
 }
 
 
+// ===============================
+// ANSWERS
+// ===============================
+
 function renderAnswers() {
-  const container = document.getElementById("answers-container");
+
+  const container =
+    document.getElementById("answers-container");
+
   container.innerHTML = "";
 
+
+  // Multiple choice
   if (currentQuestion.type === "multiple_choice") {
 
-    Object.entries(currentQuestion.answers).forEach(([letter, text]) => {
-      const label = document.createElement("label");
-      label.className = "answer-option";
+    Object.entries(currentQuestion.answers).forEach(
+      ([letter, text]) => {
 
-      label.innerHTML = `
-        <input type="radio" name="answer" value="${letter}">
-        <strong>${letter})</strong> ${text}
-      `;
+        const label = document.createElement("label");
 
-      container.appendChild(label);
-    });
+        label.className = "answer-option";
 
-  } else if (currentQuestion.type === "written") {
+        label.innerHTML = `
+          <input
+            type="radio"
+            name="answer"
+            value="${letter}"
+          >
+          <strong>${letter})</strong> ${text}
+        `;
+
+        container.appendChild(label);
+      }
+    );
+
+  }
+
+
+  // Written
+  else if (currentQuestion.type === "written") {
 
     const textarea = document.createElement("textarea");
+
     textarea.id = "written-answer";
-    textarea.placeholder = "Write your answer here...";
+
+    textarea.placeholder =
+      "Write your answer here...";
+
     container.appendChild(textarea);
 
-    const revealButton = document.createElement("button");
+
+    const revealButton =
+      document.createElement("button");
+
     revealButton.id = "reveal-button";
-    revealButton.textContent = "Reveal answer";
+
+    revealButton.textContent =
+      "Reveal answer";
+
     revealButton.type = "button";
 
-    revealButton.addEventListener("click", revealAnswer);
+    revealButton.addEventListener(
+      "click",
+      revealAnswer
+    );
 
     container.appendChild(revealButton);
   }
 }
 
 
+// ===============================
+// CHECK MULTIPLE-CHOICE ANSWER
+// ===============================
 
-function revealAnswer() {
+function checkAnswer() {
+
   if (!currentQuestion) return;
 
-  const userAnswer =
-    document.getElementById("written-answer").value.trim();
-
-  if (!userAnswer) {
-    document.getElementById("result").textContent =
-      "Please write your answer first.";
+  // Written questions use Reveal Answer
+  if (currentQuestion.type === "written") {
     return;
   }
 
-  const container = document.getElementById("answers-container");
+  const selected =
+    document.querySelector(
+      'input[name="answer"]:checked'
+    );
 
-  const modelAnswer = document.createElement("div");
+  if (!selected) {
+
+    document.getElementById("result").textContent =
+      "Please select an answer.";
+
+    return;
+  }
+
+  const userAnswer = selected.value;
+
+  const result =
+    document.getElementById("result");
+
+
+  if (
+    userAnswer.toLowerCase() ===
+    currentQuestion.correct_answer.toLowerCase()
+  ) {
+
+    const points =
+      currentQuestion.topic === "Navegacao"
+        ? 0.3
+        : 0.5;
+
+    score += points;
+
+    currentQuestion.wasCorrect = true;
+
+    result.textContent =
+      `Correct! +${points}`;
+
+  } else {
+
+    currentQuestion.wasCorrect = false;
+
+    result.textContent =
+      `Incorrect. Correct answer: ${currentQuestion.correct_answer}`;
+  }
+
+
+  // Disable answer options
+  document
+    .querySelectorAll('input[name="answer"]')
+    .forEach(input => {
+      input.disabled = true;
+    });
+
+
+  // Hide submit button
+  document.getElementById("submit-button").style.display =
+    "none";
+
+
+  // Next question button
+  const nextButton =
+    document.createElement("button");
+
+  nextButton.id = "next-button";
+
+  nextButton.textContent =
+    "Next Question";
+
+  nextButton.type = "button";
+
+  nextButton.addEventListener(
+    "click",
+    goToNextQuestion
+  );
+
+  document
+    .getElementById("answers-container")
+    .appendChild(nextButton);
+}
+
+
+// ===============================
+// REVEAL WRITTEN ANSWER
+// ===============================
+
+function revealAnswer() {
+
+  if (!currentQuestion) return;
+
+  const userAnswer =
+    document
+      .getElementById("written-answer")
+      .value
+      .trim();
+
+  if (!userAnswer) {
+
+    document.getElementById("result").textContent =
+      "Please write your answer first.";
+
+    return;
+  }
+
+
+  const container =
+    document.getElementById("answers-container");
+
+
+  const modelAnswer =
+    document.createElement("div");
+
   modelAnswer.id = "model-answer";
+
   modelAnswer.innerHTML = `
     <p><strong>Model answer:</strong></p>
     <p>${currentQuestion.correct_answer}</p>
@@ -255,134 +513,142 @@ function revealAnswer() {
 
   container.appendChild(modelAnswer);
 
-  const markingContainer = document.createElement("div");
-  markingContainer.id = "marking-container";
 
-  const correctButton = document.createElement("button");
-  correctButton.textContent = "Correct";
-  correctButton.type = "button";
+  const markingContainer =
+    document.createElement("div");
 
-  const wrongButton = document.createElement("button");
-  wrongButton.textContent = "Wrong";
-  wrongButton.type = "button";
+  markingContainer.id =
+    "marking-container";
 
-  correctButton.addEventListener("click", () => {
-    const points =
-      currentQuestion.topic === "Navegacao" ? 0.3 : 0.5;
 
-    score += points;
-    currentQuestion.wasCorrect = true;
+  const correctButton =
+    document.createElement("button");
 
-    goToNextQuestion();
-  });
+  correctButton.textContent =
+    "Correct";
 
-  wrongButton.addEventListener("click", () => {
-    currentQuestion.wasCorrect = false;
+  correctButton.type =
+    "button";
 
-    goToNextQuestion();
-  });
 
-  markingContainer.appendChild(correctButton);
-  markingContainer.appendChild(wrongButton);
+  const wrongButton =
+    document.createElement("button");
 
-  container.appendChild(markingContainer);
+  wrongButton.textContent =
+    "Wrong";
 
-  document.getElementById("written-answer").disabled = true;
+  wrongButton.type =
+    "button";
 
-  document.getElementById("submit-button").style.display = "none";
+
+  correctButton.addEventListener(
+    "click",
+    () => {
+
+      const points =
+        currentQuestion.topic === "Navegacao"
+          ? 0.3
+          : 0.5;
+
+      score += points;
+
+      currentQuestion.wasCorrect =
+        true;
+
+      goToNextQuestion();
+    }
+  );
+
+
+  wrongButton.addEventListener(
+    "click",
+    () => {
+
+      currentQuestion.wasCorrect =
+        false;
+
+      goToNextQuestion();
+    }
+  );
+
+
+  markingContainer.appendChild(
+    correctButton
+  );
+
+  markingContainer.appendChild(
+    wrongButton
+  );
+
+  container.appendChild(
+    markingContainer
+  );
+
+
+  document.getElementById(
+    "written-answer"
+  ).disabled = true;
+
+  document.getElementById(
+    "submit-button"
+  ).style.display = "none";
 }
 
 
+// ===============================
+// NEXT QUESTION
+// ===============================
+
 function goToNextQuestion() {
+
   currentQuestionIndex++;
 
-  if (currentQuestionIndex < examQuestions.length) {
-    // Show the submit button again
-    document.getElementById("submit-button").style.display = "";
+  if (
+    currentQuestionIndex <
+    examQuestions.length
+  ) {
 
     showQuestion();
+
   } else {
+
     showFinalScore();
   }
 }
 
 
+// ===============================
+// RETAKE
+// ===============================
 
+function retakeExam() {
 
-
-function checkAnswer() {
-  if (!currentQuestion) return;
-
-  // Written questions use the Reveal Answer button
-  if (currentQuestion.type === "written") {
-    return;
-  }
-
-  const selected = document.querySelector(
-    'input[name="answer"]:checked'
-  );
-
-  if (!selected) {
-    document.getElementById("result").textContent =
-      "Please select an answer.";
-    return;
-  }
-
-  const userAnswer = selected.value;
-  const result = document.getElementById("result");
-
-  if (
-    userAnswer.toLowerCase() ===
-    currentQuestion.correct_answer.toLowerCase()
-  ) {
-    const points =
-      currentQuestion.topic === "Navegacao" ? 0.3 : 0.5;
-
-    score += points;
-    currentQuestion.wasCorrect = true;
-
-    result.textContent = `Correct! +${points}`;
-  } else {
-    currentQuestion.wasCorrect = false;
-
-    result.textContent =
-      `Incorrect. Correct answer: ${currentQuestion.correct_answer}`;
-  }
-
-  // Disable the answer options
-  document
-    .querySelectorAll('input[name="answer"]')
-    .forEach(input => {
-      input.disabled = true;
-    });
-
-  // Hide Submit button
-  document.getElementById("submit-button").style.display = "none";
-
-  // Create Next Question button
-  const nextButton = document.createElement("button");
-  nextButton.id = "next-button";
-  nextButton.textContent = "Next Question";
-  nextButton.type = "button";
-
-  nextButton.addEventListener("click", goToNextQuestion);
-
-  document.getElementById("answers-container").appendChild(nextButton);
+  showTopicSelection();
 }
 
+
+// ===============================
+// FINAL SCORE
+// ===============================
+
 function showFinalScore() {
+
   let rieamScore = 0;
   let navegacaoScore = 0;
 
   examQuestions.forEach(question => {
+
     if (question.wasCorrect) {
+
       if (question.topic === "RIEAM") {
         rieamScore += 0.5;
+
       } else if (question.topic === "Navegacao") {
         navegacaoScore += 0.3;
       }
     }
   });
+
 
   document.getElementById("topic").textContent = "";
   document.getElementById("subtopic").textContent = "";
@@ -392,29 +658,55 @@ function showFinalScore() {
     "Exam complete!";
 
   document.getElementById("image-container").innerHTML = "";
+
   document.getElementById("answers-container").innerHTML = "";
 
+
   document.getElementById("result").innerHTML = `
-    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
+    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 3.5</p>
     <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.6</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.6</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.1</p>
   `;
 
-  document.getElementById("submit-button").style.display = "none";
 
-  const retakeButton = document.createElement("button");
-  retakeButton.id = "retake-button";
-  retakeButton.textContent = "Retake Exam";
-  retakeButton.type = "button";
+  document.getElementById("submit-button").style.display =
+    "none";
 
-  retakeButton.addEventListener("click", retakeExam);
 
-  document.getElementById("answers-container").appendChild(retakeButton);
+  const retakeButton =
+    document.createElement("button");
+
+  retakeButton.id =
+    "retake-button";
+
+  retakeButton.textContent =
+    "Retake Exam";
+
+  retakeButton.type =
+    "button";
+
+  retakeButton.addEventListener(
+    "click",
+    retakeExam
+  );
+
+  document
+    .getElementById("answers-container")
+    .appendChild(retakeButton);
 }
 
 
+// ===============================
+// SUBMIT BUTTON
+// ===============================
+
 document
   .getElementById("submit-button")
-  .addEventListener("click", checkAnswer);
+  .addEventListener(
+    "click",
+    checkAnswer
+  );
 
+
+// Start loading questions
 loadQuestions();
