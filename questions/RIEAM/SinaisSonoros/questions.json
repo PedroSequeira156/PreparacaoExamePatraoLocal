@@ -65,7 +65,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação A pretende atracar por EB no cais. Para isso tem que guinar para BB. Que sinal sonoro tem que emitir?",
-    "image": "images/RIEAM_SinaisSonoros_Q05",
+    "image": "images/RIEAM_SinaisSonoros_Q05.png",
     "correct_answer": "Dois sons curtos (..)"
   },
   {
@@ -74,7 +74,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação B pretende ultrapassar a embarcação A por EB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
-    "image": "images/RIEAM_SinaisSonoros_Q06",
+    "image": "images/RIEAM_SinaisSonoros_Q06.png",
     "correct_answer": "Embarcação B: dois sons longos e um curto (_ _ .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
   },
   {
@@ -158,7 +158,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação B pretende ultrapassar a embarcação A por BB. Que sinal sonoro tem que emitir a embarcação B? Que sinal sonoro tem que emitir a embarcação A para autorizar?",
-    "image": "images/RIEAM_SinaisSonoros_Q12",
+    "image": "images/RIEAM_SinaisSonoros_Q12.png",
     "correct_answer": "Embarcação B: dois sons longos seguidos de dois curtos (_ _ . .). Embarcação A: um som longo, um som curto, um som longo, um som curto (_ . _ .)."
   },
   {
@@ -182,7 +182,7 @@
     "subtopic": "Sinais Sonoros",
     "type": "written",
     "question": "A embarcação A pretende atracar por BB no cais. Para isso tem que guinar para EB. Que sinal sonoro tem que emitir?",
-    "image": "images/RIEAM_SinaisSonoros_Q14",
+    "image": "images/RIEAM_SinaisSonoros_Q14.png",
     "correct_answer": "Um som curto (.)"
   },
   {
