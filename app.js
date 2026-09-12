@@ -80,7 +80,7 @@ function startExam() {
     .slice(0, 2);
 
   const baloes = questions
-    .filter(q => q.subtopic === "Balões")
+    .filter(q => q.subtopic === "Baloes")
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
