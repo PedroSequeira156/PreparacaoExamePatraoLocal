@@ -89,6 +89,11 @@ function startExam() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
+  const sinaissonoros = questions
+    .filter(q => q.subtopic === "Sinais Sonoros")
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 2);
+
   const generalidades = questions
     .filter(q => q.subtopic === "Generalidades")
     .sort(() => Math.random() - 0.5)
@@ -98,10 +103,11 @@ function startExam() {
     ...abalroamentos,
     ...luzes,
     ...baloes,
+    ...sinaissonoros,
     ...generalidades
   ];
 
-  // Mix all 8 questions together
+  // Mix all questions together
   examQuestions.sort(() => Math.random() - 0.5);
 
   currentQuestionIndex = 0;
@@ -381,9 +387,9 @@ function showFinalScore() {
   document.getElementById("answers-container").innerHTML = "";
 
   document.getElementById("result").innerHTML = `
-    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 3.5</p>
+    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
     <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.3</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 3.8</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.3</p>
   `;
 
   // Hide the Submit Answer button
