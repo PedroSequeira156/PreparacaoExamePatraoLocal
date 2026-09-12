@@ -1,1 +1,240 @@
-a
+[
+   {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "A Declinacao e devida ao",
+    "image": null,
+    "answers": {
+      "A": "Magnetismo terrestre",
+      "B": "Magnetismo dos Continentes",
+      "C": "Magnetismo da embracacao",
+      "D": "Nenhuma se aplica"
+    },
+    "correct_answer": "A"
+  },
+   {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Indique a equacao que usa para achar a Variacao",
+    "image": null,
+    "correct_answer": null
+  },
+   {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "Written",
+    "question": "Esplique a influencia que o magnetismo tem sobre a Agulha Magnetica",
+    "image": null,
+    "correct_answer": null
+  },
+   {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "Onde se pode obter o valor do desvio.",
+    "image": null,
+    "correct_answer": null
+  },
+   {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "Defina Declinacao",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte da Agulha e o Meridiano magnetico.",
+      "B": "É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.",
+      "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
+    },
+    "correct_answer": null
+  },
+   {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "Defina desvio.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.",
+      "B": "É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.",
+      "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
+    },
+    "correct_answer": null
+  },
+  
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "Defina desvio.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.",
+      "B": "É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.",
+      "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
+    },
+    "correct_answer": null
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Explique a influência que o magnetismo da embarcação tem sobre a Agulha Magnética?",
+    "image": null,
+    "correct_answer": null
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "Defina Variação de uma agulha magnética.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.",
+      "B": "É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.",
+      "C": "É o ângulo entre o Meridiano Verdadeiro e o Norte magnético.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
+    },
+    "correct_answer": null
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Onde pode obter o valor da Declinação?",
+    "image": null,
+    "correct_answer": null
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Complete a frase: A Declinação varia de ___________ para _________ e no mesmo lugar de ____________ para ___________.",
+    "image": null,
+    "correct_answer": null
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Complete o espaço em branco: A Agulha Magnética trabalha no interior de uma caixa denominada __________________.",
+    "image": null,
+    "correct_answer": null
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano Verdadeiro e o Meridiano Magnético chama-se:",
+    "image": null,
+    "answers": {
+      "A": "Variação.",
+      "B": "Declinação.",
+      "C": "Desvio.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": null
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "written",
+    "question": "Complete o espaço em branco: A Rosa dos Ventos é graduada de______a______coincidindo o zero graus com o norte da_________________.",
+    "image": null,
+    "correct_answer": "A Rosa dos Ventos é graduada de 000 (0 graus) a 360º, coincidindo o zero graus com o norte da agulha."
+  },
+  {
+    "id": 15,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "A Declinação pode-se obter nas:",
+    "image": null,
+    "answers": {
+      "A": "Tabela das Declinações.",
+      "B": "Tabela de Desvios.",
+      "C": "Cartas de Navegação.",
+      "D": "Almanaque Náutico."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 16,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "O Desvio é devido ao:",
+    "image": null,
+    "answers": {
+      "A": "Magnetismo dos Continentes.",
+      "B": "Magnetismo da embarcação.",
+      "C": "Magnetismo terrestre.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 17,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano Verdadeiro e o Meridiano da Agulha chama-se:",
+    "image": null,
+    "answers": {
+      "A": "Declinação.",
+      "B": "Variação.",
+      "C": "Desvio.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 18,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano Magnético e o Meridiano da Agulha chama-se:",
+    "image": null,
+    "answers": {
+      "A": "Declinação.",
+      "B": "Variação.",
+      "C": "Desvio.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 19,
+    "topic": "Navegacao",
+    "subtopic": "Agulha Magnetica",
+    "type": "multiple_choice",
+    "question": "O Desvio pode-se obter nas:",
+    "image": null,
+    "answers": {
+      "A": "Cartas de Navegação.",
+      "B": "Tabela das Declinações.",
+      "C": "Tabela de Desvios.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  }
+]
