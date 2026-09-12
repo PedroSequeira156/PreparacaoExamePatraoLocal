@@ -74,17 +74,28 @@ function startExam() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
-  examQuestions = [...abalroamentos, ...luzes];
+  const baloes = questions
+    .filter(q => q.subtopic === "Balões")
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 2);
 
-  // Shuffle the 5 questions so they aren't always
-  // 3 Abalroamentos followed by 2 Luzes.
+  examQuestions = [
+    ...abalroamentos,
+    ...luzes,
+    ...baloes
+  ];
+
+  // Mix all 7 questions together
   examQuestions.sort(() => Math.random() - 0.5);
 
   currentQuestionIndex = 0;
   score = 0;
 
+  document.getElementById("submit-button").style.display = "";
+
   showQuestion();
 }
+
 
 function retakeExam() {
   startExam();
@@ -298,7 +309,7 @@ function showFinalScore() {
   document.getElementById("answers-container").innerHTML = "";
 
   document.getElementById("result").textContent =
-    `Final score: ${score} / 2.5`;
+    `Final score: ${score} / 3.5`;
 
   // Hide the Submit Answer button
   document.getElementById("submit-button").style.display = "none";
