@@ -16,7 +16,12 @@ const QUESTION_BANKS = [
     topic: "RIEAM",
     subtopic: "Balões",
     path: "questions/RIEAM/Balões/questions.json"
-}
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Generalidades",
+    path: "questions/Navegacao/Generalidades/questions.json"
+  }
 ];
 
 let questions = [];
@@ -79,13 +84,19 @@ function startExam() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
+  const generalidades = questions
+    .filter(q => q.subtopic === "Generalidades")
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 1);
+
   examQuestions = [
     ...abalroamentos,
     ...luzes,
-    ...baloes
+    ...baloes,
+    ...generalidades
   ];
 
-  // Mix all 7 questions together
+  // Mix all 8 questions together
   examQuestions.sort(() => Math.random() - 0.5);
 
   currentQuestionIndex = 0;
@@ -95,7 +106,6 @@ function startExam() {
 
   showQuestion();
 }
-
 
 function retakeExam() {
   startExam();
@@ -187,6 +197,8 @@ function renderAnswers() {
   }
 }
 
+
+
 function revealAnswer() {
   if (!currentQuestion) return;
 
@@ -201,7 +213,6 @@ function revealAnswer() {
 
   const container = document.getElementById("answers-container");
 
-  // Show the model answer
   const modelAnswer = document.createElement("div");
   modelAnswer.id = "model-answer";
   modelAnswer.innerHTML = `
@@ -211,7 +222,6 @@ function revealAnswer() {
 
   container.appendChild(modelAnswer);
 
-  // Create self-marking buttons
   const markingContainer = document.createElement("div");
   markingContainer.id = "marking-container";
 
@@ -224,11 +234,18 @@ function revealAnswer() {
   wrongButton.type = "button";
 
   correctButton.addEventListener("click", () => {
-    score += 0.5;
+    const points =
+      currentQuestion.topic === "Navegacao" ? 0.3 : 0.5;
+
+    score += points;
+    currentQuestion.wasCorrect = true;
+
     goToNextQuestion();
   });
 
   wrongButton.addEventListener("click", () => {
+    currentQuestion.wasCorrect = false;
+
     goToNextQuestion();
   });
 
@@ -237,12 +254,11 @@ function revealAnswer() {
 
   container.appendChild(markingContainer);
 
-  // Disable the textarea so the answer cannot be changed
   document.getElementById("written-answer").disabled = true;
 
-  // Hide the normal submit button
   document.getElementById("submit-button").style.display = "none";
 }
+
 
 function goToNextQuestion() {
   currentQuestionIndex++;
@@ -256,6 +272,8 @@ function goToNextQuestion() {
     showFinalScore();
   }
 }
+
+
 
 
 
@@ -284,9 +302,16 @@ function checkAnswer() {
     userAnswer.toLowerCase() ===
     currentQuestion.correct_answer.toLowerCase()
   ) {
-    score += 0.5;
-    result.textContent = "Correct! +0.5";
+    const points =
+      currentQuestion.topic === "Navegacao" ? 0.3 : 0.5;
+
+    score += points;
+    currentQuestion.wasCorrect = true;
+
+    result.textContent = `Correct! +${points}`;
   } else {
+    currentQuestion.wasCorrect = false;
+
     result.textContent =
       `Incorrect. Correct answer: ${currentQuestion.correct_answer}`;
   }
@@ -297,7 +322,24 @@ function checkAnswer() {
 }
 
 
+
+
+
 function showFinalScore() {
+  // Calculate scores by topic
+  let rieamScore = 0;
+  let navegacaoScore = 0;
+
+  examQuestions.forEach(question => {
+    if (question.wasCorrect) {
+      if (question.topic === "RIEAM") {
+        rieamScore += 0.5;
+      } else if (question.topic === "Navegacao") {
+        navegacaoScore += 0.3;
+      }
+    }
+  });
+
   document.getElementById("topic").textContent = "";
   document.getElementById("subtopic").textContent = "";
   document.getElementById("question-number").textContent = "";
@@ -308,8 +350,11 @@ function showFinalScore() {
   document.getElementById("image-container").innerHTML = "";
   document.getElementById("answers-container").innerHTML = "";
 
-  document.getElementById("result").textContent =
-    `Final score: ${score} / 3.5`;
+  document.getElementById("result").innerHTML = `
+    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 3.5</p>
+    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.3</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 3.8</p>
+  `;
 
   // Hide the Submit Answer button
   document.getElementById("submit-button").style.display = "none";
@@ -324,6 +369,7 @@ function showFinalScore() {
 
   document.getElementById("answers-container").appendChild(retakeButton);
 }
+
 
 
 
