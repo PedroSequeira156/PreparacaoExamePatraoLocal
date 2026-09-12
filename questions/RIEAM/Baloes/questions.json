@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação a arrastar deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Três balões cónicos unidos pelo vértice",
+      "B": "Dois balões cónicos unidos pelo vértice, dispostos na mesma linha vertical",
+      "C": "Dois balões, dispostos na mesma linha vertical",
+      "D": "Nenhuma está certa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 2,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Embarcação a navegar à vela e a motor deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Um balão esférico de cor preta içado à proa",
+      "B": "Um balão bicónico de cor preta içado à proa",
+      "C": "Um balão cónico com o vértice para baixo de cor preta içado à proa",
+      "D": "Dois balões cónicos unidos pelo vértice"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 3,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com comprimento de reboque superior a 200m a rebocar outra ou outras de dia deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões bicónicos",
+      "B": "Dois balões bicónicos de cor preta",
+      "C": "Um balão preto esférico",
+      "D": "Um balão bicónico de cor preta"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 4,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação com comprimento de reboque inferior a 200m a rebocar outra ou outras de dia deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões bicónicos",
+      "B": "Dois balões bicónicos pretos",
+      "C": "Um balão preto esférico",
+      "D": "Nenhuma está certa"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 5,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Um navio com capacidade de manobra reduzida deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões bicónicos",
+      "B": "Três balões bicónicos de cor preta, dispostos verticalmente, sendo o do meio esférico",
+      "C": "Três balões de cor preta, dispostos verticalmente, sendo o do meio bicónico e os outros dois esféricos",
+      "D": "Três balões esféricos de cor preta"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 6,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Um navio com manobra reduzida devido ao calado deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Um balão cilíndrico de cor preta",
+      "B": "Três balões bicónicos de cor preta dispostos verticalmente sendo o do meio esférico",
+      "C": "Três balões de cor preta dispostos verticalmente sendo o do meio bicónico",
+      "D": "Dois balões cilíndricos de cor preta"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 7,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Um navio desgovernado sem seguimento deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões bicónicos",
+      "B": "Dois balões bicónicos de cor preta",
+      "C": "Um balão preto esférico",
+      "D": "Dois balões esféricos de cor preta"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 8,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Um navio encalhado deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Três balões bicónicos dispostos verticalmente",
+      "B": "Dois balões bicónicos dispostos verticalmente",
+      "C": "Três balões esféricos dispostos verticalmente",
+      "D": "Nenhuma está certa"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 9,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Complete a frase: Embarcação _____________ com um comprimento ______________ a 200 metros.",
+    "image": null,
+    "correct_answer": "a rebocar; de reboque superior"
+  },
+  {
+    "id": 10,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": "Sim; Porque este é um navio em faina de pesca"
+  },
+  {
+    "id": 11,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": "Sim; Porque este é um navio desgovernado"
+  },
+  {
+    "id": 12,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": "Sim; Porque este é um navio com capacidade de manobra reduzida"
+  },
+  {
+    "id": 13,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Que depreende ao avistar estes sinais içados no mastro deste navio?",
+    "image": null,
+    "correct_answer": "Navio encalhado"
+  },
+  {
+    "id": 14,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": "Sim; Porque é um navio condicionado pelo calado"
+  },
+  {
+    "id": 15,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Embarcação a navegar à vela e a motor deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Um balão esférico preto içado à proa.",
+      "B": "Um balão bicónico preto içado à proa.",
+      "C": "Um balão cónico preto com o vértice para baixo, içado à proa.",
+      "D": "Dois balões cónicos pretos, com o vértice para baixo, içados à proa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 16,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Um navio na faina de pesca (com um comprimento superior a 20 metros) de dia, como deve tal assinalar? Avista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": ""
+  },
+  {
+    "id": 17,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação, na faina da pesca (com comprimento superior a 20 metros), deve apresentar de dia:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões cónicos unidos pela base.",
+      "B": "Dois balões cónicos unidos pelo vértice, dispostos verticalmente.",
+      "C": "Dois balões cilíndricos.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 18,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Avista este navio pelo seu BB e verifica estar em rota de colisão com o seu navio. Tem que manobrar? Porquê?",
+    "image": null,
+    "correct_answer": "Não; Porque é um navio de propulsão mecânica (por acaso encontra-se a rebocar)"
+  },
+  {
+    "id": 19,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação a rebocar outra ou outras, durante o dia, com um comprimento de reboque superior a 200 metros, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Dois balões bicónicos de cor preta.",
+      "B": "Dois balões esféricos de cor preta.",
+      "C": "Três balões esféricos de cor preta.",
+      "D": "Um balão bicónico de cor preta."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 20,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Uma embarcação a rebocar outra ou outras, durante o dia, com um comprimento de reboque inferior a 200 metros, deve apresentar:",
+    "image": null,
+    "answers": {
+      "A": "Um balão bicónico.",
+      "B": "Um balão bicónico preto com o vértice para fora.",
+      "C": "Um balão preto esférico.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 21,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "multiple_choice",
+    "question": "Em que circunstância é que um navio a navegar deve içar balões:",
+    "image": null,
+    "answers": {
+      "A": "Quando desgovernado",
+      "B": "Quando estiver a navegar à vela e a motor",
+      "C": "Quando tiver capacidade de manobra reduzida",
+      "D": "Todas as alíneas estão certas"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 22,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Desenhe na figura os balões correspondentes a um navio condicionado pelo seu calado.",
+    "image": null,
+    "correct_answer": ""
+  },
+  {
+    "id": 23,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Desenhe na figura os balões correspondentes a uma embarcação encalhada.",
+    "image": null,
+    "correct_answer": ""
+  },
+  {
+    "id": 24,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Desenhe na figura os balões correspondentes a um navio desgovernado.",
+    "image": null,
+    "correct_answer": ""
+  },
+  {
+    "id": 25,
+    "topic": "RIEAM",
+    "subtopic": "Balões",
+    "type": "written",
+    "question": "Desenhe na figura os balões correspondentes a um navio a rebocar.",
+    "image": null,
+    "correct_answer": ""
+  }
+]
