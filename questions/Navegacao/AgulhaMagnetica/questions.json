@@ -21,7 +21,7 @@
     "type": "written",
     "question": "Indique a equacao que usa para achar a Variacao",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "Variação é a soma algébrica da Declinação magnética com o Desvio da agulha, ou seja, V=D+d"
   },
    {
     "id": 4,
@@ -30,7 +30,7 @@
     "type": "Written",
     "question": "Esplique a influencia que o magnetismo tem sobre a Agulha Magnetica",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "A Terra tem magnetismo próprio e assim comporta-se como um grande íman. A agulha magnética (se não tiver influência das massas da própria embarcação nem outras) orienta-se para os Pólo Norte e Pólo Sul magnéticos." 
   },
    {
     "id": 5,
@@ -39,7 +39,7 @@
     "type": "multiple_choice",
     "question": "Onde se pode obter o valor do desvio.",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "Na Tabela de Desvios da embarcação"
   },
    {
     "id": 6,
@@ -54,23 +54,9 @@
       "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
       "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
     },
-    "correct_answer": null
+    "correct_answer": "C"
   },
-   {
-    "id": 6,
-    "topic": "Navegacao",
-    "subtopic": "Agulha Magnetica",
-    "type": "multiple_choice",
-    "question": "Defina desvio.",
-    "image": null,
-    "answers": {
-      "A": "É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.",
-      "B": "É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.",
-      "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
-      "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
-    },
-    "correct_answer": null
-  },
+
   
   {
     "id": 7,
@@ -85,7 +71,7 @@
       "C": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.",
       "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
     },
-    "correct_answer": null
+    "correct_answer": "B"
   },
   {
     "id": 8,
@@ -94,7 +80,7 @@
     "type": "written",
     "question": "Explique a influência que o magnetismo da embarcação tem sobre a Agulha Magnética?",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "As massas de ferro adquirem, com a construção das embarcações, magnetização própria. Este magnetismo também é influenciado pelos circuitos eléctricos da embarcação. Assim a agulha magnética aponta para uma direcção próxima do Norte Magnético, designada por Norte da Agulha. A essa diferença chama-se Desvio da Agulha.  "
   },
   {
     "id": 9,
@@ -109,7 +95,7 @@
       "C": "É o ângulo entre o Meridiano Verdadeiro e o Norte magnético.",
       "D": "É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha."
     },
-    "correct_answer": null
+    "correct_answer": "D"
   },
   {
     "id": 10,
@@ -118,7 +104,7 @@
     "type": "written",
     "question": "Onde pode obter o valor da Declinação?",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "Nas Cartas de Navegação ( na Rosa Magnética) "
   },
   {
     "id": 11,
@@ -127,7 +113,7 @@
     "type": "written",
     "question": "Complete a frase: A Declinação varia de ___________ para _________ e no mesmo lugar de ____________ para ___________.",
     "image": null,
-    "correct_answer": null
+    "correct_answer": " A Declinação varia de lugar para lugar e no mesmo lugar de ano para ano "
   },
   {
     "id": 12,
@@ -136,7 +122,7 @@
     "type": "written",
     "question": "Complete o espaço em branco: A Agulha Magnética trabalha no interior de uma caixa denominada __________________.",
     "image": null,
-    "correct_answer": null
+    "correct_answer": "Morteiro"
   },
   {
     "id": 13,
@@ -151,7 +137,7 @@
       "C": "Desvio.",
       "D": "Nenhuma se aplica."
     },
-    "correct_answer": null
+    "correct_answer": "B"
   },
   {
     "id": 14,
