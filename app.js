@@ -18,6 +18,11 @@ const QUESTION_BANKS = [
     path: "questions/RIEAM/Baloes/questions.json"
   },
   {
+    topic: "RIEAM",
+    subtopic: "Sinais Sonoros",
+    path: "questions/RIEAM/SinaisSonoros/questions.json"
+  },
+  {
     topic: "Navegacao",
     subtopic: "Generalidades",
     path: "questions/Navegacao/Generalidades/questions.json"
