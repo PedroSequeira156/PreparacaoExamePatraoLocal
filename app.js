@@ -14,7 +14,7 @@ const QUESTION_BANKS = [
   },
   {
     topic: "RIEAM",
-    subtopic: "Balões",
+    subtopic: "Baloes",
     path: "questions/RIEAM/Balões/questions.json"
   },
   {
