@@ -59,7 +59,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Identifique a marca. Região? Numeração? Forma da Marca? Luz? Qual o bordo pelo qual à entrada a deve deixar? Ver Figura 22 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q07",
+    "image": "images/Navegacao_Balizagem_Q07.png",
     "correct_answer": "Marca Lateral Modificada; Região A; numeração par; forma cilíndrica, fuso ou antena; luz de cor vermelha; deve ser deixada por bombordo."
   },
   {
@@ -131,7 +131,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Indique as características das Marcas de Perigo Isolado: Alvo, Cor, Forma e Luz.",
-    "image": "images/Navegacao_Balizagem_Q14",
+    "image": "images/Navegacao_Balizagem_Q14.png",
     "correct_answer": "Alvo: duas esferas pretas sobrepostas; cor: vermelho e preto; forma: facultativa; luz: branca."
   },
   {
@@ -164,7 +164,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Indica? Ver Figura 28 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q16",
+    "image": "images/Navegacao_Balizagem_Q16.png",
     "correct_answer": "Marca Cardeal Sul; indica que as águas mais profundas se encontram no quadrante Sul em relação à marca."
   },
   {
@@ -173,7 +173,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Identifique a marca. Região? Numeração? Forma da Marca? Luz? Qual o bordo pelo qual à entrada a deve deixar? Ver Figura 20 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q17",
+    "image": "images/Navegacao_Balizagem_Q17.png",
     "correct_answer": "Marca Lateral; Região A; numeração ímpar; forma cónica, fuso ou antena; luz de cor verde; deve ser deixada por estibordo."
   },
   {
@@ -182,7 +182,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Significado. Ver Figura 31 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q18",
+    "image": "images/Navegacao_Balizagem_Q18.png",
     "correct_answer": "Marca de Águas Limpas; significa que as águas são navegáveis em torno da marca."
   },
   {
@@ -191,7 +191,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Significado. Ver Figura 30 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q19",
+    "image": "images/Navegacao_Balizagem_Q19.png",
     "correct_answer": "Marca de Perigo Isolado; significa que existe algum obstáculo no local, debaixo da bóia."
   },
   {
@@ -200,7 +200,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Indica? Ver Figura 26 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q20",
+    "image": "images/Navegacao_Balizagem_Q20.png",
     "correct_answer": "Cardeal Norte; indica onde se situam as águas mais profundas. Neste caso, a NORTE."
   },
   {
@@ -251,7 +251,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Significado. Ver Figura 32 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q25",
+    "image": "images/Navegacao_Balizagem_Q25.png",
     "correct_answer": "Marca Especial; define uma configuração especial. Pode ser uma bóia ODAS, pode delimitar um campo de tiro, conduta de esgotos, etc."
   },
   {
@@ -260,7 +260,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Indica? Ver Figura 29 do Anexo.",
-    "image": "images/Navegacao_Balizagem_Q26",
+    "image": "images/Navegacao_Balizagem_Q26.png",
     "correct_answer": "Marca Cardeal Este; indica que as águas mais profundas se encontram no quadrante Este."
   }
 ]
