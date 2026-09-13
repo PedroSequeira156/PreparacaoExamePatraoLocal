@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "3 Relâmpagos; Período de 11,5 segundos."
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "3 Relâmpagos; Período de 15 segundos."
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "1 Relâmpago; Período de 3 segundos."
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "3 Ocultações; Período de 15 segundos."
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "1 Relâmpago; Período de 4 segundos."
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "3 Ocultações; Período de 12 segundos."
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "Isofásica; Período de 4 segundos."
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
+    "image": null,
+    "correct_answer": "Isofásica; Período de 2 segundos."
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nRl(3) br 18s 130m 24M (AM)\nSer 18s",
+    "image": null,
+    "correct_answer": "Três relâmpagos agrupados brancos de 18 segundos de período, 130 metros de altitude, 24 milhas de alcance nominal, aeromarítimo. Tem uma buzina de nevoeiro com um período de 18 segundos."
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nRl(2) br 20s 126m 20M (AM)",
+    "image": null,
+    "correct_answer": "Dois relâmpagos agrupados brancos de 20 segundos de período, 126 metros de altitude, 20 milhas de alcance nominal, aeromarítimo."
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nIs vm 15s 25m 10M",
+    "image": null,
+    "correct_answer": "Luz Isofásica cor vermelha, 15 segundos de período, 25 metros de altitude, 10 milhas de alcance nominal."
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nOc vm 12s 50m 16M\nNauto 60s",
+    "image": null,
+    "correct_answer": "Ocultações cor vermelha, 12 segundos de período, 50 metros de altitude, 16 milhas de alcance nominal. Tem buzina de nevoeiro com período de 60 segundos."
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nLage Rl 12s 3 M",
+    "image": null,
+    "correct_answer": "Farol de nome Lage, com relâmpagos com um período de 12 segundos e 3 milhas de alcance nominal."
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nRl vm 3s 5m 3M",
+    "image": null,
+    "correct_answer": "Farol com relâmpago vermelho com um período de 3 segundos, com a altitude de 5 metros e um alcance nominal de 3 milhas."
+  },
+  {
+    "id": 15,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nRl(2) br 10s 50m 15M",
+    "image": null,
+    "correct_answer": "Dois relâmpagos agrupados brancos de 10 segundos de período, com a altitude de 50 metros e um alcance nominal de 15 milhas."
+  },
+  {
+    "id": 16,
+    "topic": "Navegacao",
+    "subtopic": "Farois",
+    "type": "written",
+    "question": "Identifique as seguintes informações sobre este Farol.\nEnf. Rl. Vm & Oc. Vm 7M 075.0º",
+    "image": null,
+    "correct_answer": "Enfiamento de dois faróis, um com Relâmpago vermelho e outro com Ocultações vermelho. Alcance nominal de cada um dos faróis é 7 Milhas e o enfiamento tem o azimute 075."
+  }
+]
