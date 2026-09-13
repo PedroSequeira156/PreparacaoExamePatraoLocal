@@ -131,7 +131,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Indique as características das Marcas de Perigo Isolado: Alvo, Cor, Forma e Luz.",
-    "image": "images/Navegacao_Balizagem_Q14.png",
+    "image": null,
     "correct_answer": "Alvo: duas esferas pretas sobrepostas; cor: vermelho e preto; forma: facultativa; luz: branca."
   },
   {
@@ -140,7 +140,7 @@
     "subtopic": "Balizagem",
     "type": "written",
     "question": "Marca? Indica? Ver Figura 27 do Anexo.",
-    "image": null,
+    "image": "images/Navegacao_Balizagem_Q14.png",
     "correct_answer": "Marca Cardeal Oeste; indica onde se situam as águas mais profundas. Neste caso, a OESTE."
   },
   {
