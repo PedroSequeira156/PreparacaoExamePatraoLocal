@@ -33,6 +33,32 @@ const QUESTION_BANKS = [
     topic: "Navegacao",
     subtopic: "Balizagem",
     path: "questions/Navegacao/Balizagem/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Azimutes",
+    path: "questions/Navegacao/Azimutes/questions.json"
+  }
+  ,
+  {
+    topic: "Navegacao",
+    subtopic: "Derrotas",
+    path: "questions/Navegacao/Derrotas/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "DifLatELong",
+    path: "questions/Navegacao/DifLatELong/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Farois",
+    path: "questions/Navegacao/Farois/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Rumos e Proas",
+    path: "questions/Navegacao/RumosEProas/questions.json"
   }
 ];
 
@@ -229,11 +255,41 @@ function startExam(selectedTopics) {
       .filter(q => q.subtopic === "Balizagem")
       .sort(() => Math.random() - 0.5)
       .slice(0, 1);
+
+    const azimutes = questions
+      .filter(q => q.subtopic === "Azimutes")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    const derrotas = questions
+      .filter(q => q.subtopic === "Derrotas")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    const difLatELong = questions
+      .filter(q => q.subtopic === "DifLatELong")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    const farois = questions
+      .filter(q => q.subtopic === "Farois")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+
+    const rumosEProas = questions
+      .filter(q => q.subtopic === "Rumos e Proas")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
     
     examQuestions.push(
       ...generalidades,
       ...agulhaMagnetica,
-      ...balizagem
+      ...balizagem,
+      ...azimutes,
+      ...derrotas,
+      ...difLatELong,
+      ...farois,
+      ...rumosEProas
     );
   }
 
@@ -675,8 +731,8 @@ function showFinalScore() {
 
   document.getElementById("result").innerHTML = `
     <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
-    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.9</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.9</p>
+    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 2.4</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 6.4</p>
   `;
 
 
