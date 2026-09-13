@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "Abatimento é o ângulo entre a:",
+    "image": null,
+    "answers": {
+      "A": "Pv e a Pa",
+      "B": "Pv e o R",
+      "C": "Pa e o R",
+      "D": "Pm e o R"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Na carta de Mercator o Rumo faz ângulos iguais com os Meridianos. VERDADEIRO OU FALSO?",
+    "image": null,
+    "correct_answer": "VERDADEIRO"
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "A linha que intersecta os paralelos segundo o mesmo ângulo chama-se?",
+    "image": null,
+    "answers": {
+      "A": "Rumo.",
+      "B": "Loxodrómica.",
+      "C": "Proa Verdadeira.",
+      "D": "Ortodrómica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "O que entende pela Carta de Mercator ser conforme?",
+    "image": null,
+    "correct_answer": "Mantém os verdadeiros contornos dos Continentes, isto é, não altera a forma nas suas representações."
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Diga o que entende por abatimento.",
+    "image": null,
+    "correct_answer": "É a diferença entre a Proa Verdadeira e o Rumo."
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Qual a diferença entre Proa Verdadeira e Rumo?",
+    "image": null,
+    "correct_answer": "A Proa Verdadeira não tem em consideração a corrente (é para onde aponta a embarcação). O Rumo tem em consideração a corrente (é o caminho em relação ao fundo do mar)."
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "Qual das Proas pode traçar na carta?",
+    "image": null,
+    "answers": {
+      "A": "A Proa Verdadeira.",
+      "B": "A Proa da Agulha.",
+      "C": "A Proa Magnética.",
+      "D": "O valor dado pela Agulha magnética quando a navegar."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Explique o que entende por uma Linha de Posição (LDP).",
+    "image": null,
+    "correct_answer": "LDP – é uma linha de possíveis pontos onde a embarcação se encontra. Só depois do cruzamento com outra LDP se determina a posição exacta da embarcação."
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Diga alguns factores que podem provocar abatimento numa embarcação a navegar à vela.",
+    "image": null,
+    "correct_answer": "Vento; corrente; vaga."
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "written",
+    "question": "Explique como determina a posição usando a Navegação Carteada?",
+    "image": null,
+    "correct_answer": "Partindo de um Ponto inicial, determina-se a posição seguinte entrando com a velocidade de superfície (velocidade em relação à água) e a Proa Verdadeira (não entra a corrente nem o vento)."
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano Magnético e a proa da embarcação denomina-se:",
+    "image": null,
+    "answers": {
+      "A": "Rumo Magnético.",
+      "B": "Rumo.",
+      "C": "Proa Magnética.",
+      "D": "Proa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "Rumo é o ângulo entre:",
+    "image": null,
+    "answers": {
+      "A": "O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação à superfície do mar.",
+      "B": "O Meridiano Magnético e o caminho seguido pela embarcação em relação à superfície do mar.",
+      "C": "O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação ao fundo do mar.",
+      "D": "O Meridiano Magnético e o caminho seguido pela embarcação em relação ao fundo do mar."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "O Abatimento pode ser:",
+    "image": null,
+    "answers": {
+      "A": "Norte, Sul, Este ou Oeste.",
+      "B": "Para vante, para bombordo ou para estibordo.",
+      "C": "Para bombordo ou para estibordo.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano Verdadeiro e a proa da embarcação denomina-se:",
+    "image": null,
+    "answers": {
+      "A": "Rumo Verdadeiro.",
+      "B": "Rumo.",
+      "C": "Proa Verdadeira.",
+      "D": "Proa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 15,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "O ângulo entre o Meridiano da Agulha e a proa da embarcação denomina-se:",
+    "image": null,
+    "answers": {
+      "A": "Proa.",
+      "B": "Rumo da Agulha.",
+      "C": "Rumo.",
+      "D": "Proa da Agulha."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 16,
+    "topic": "Navegacao",
+    "subtopic": "Rumos e Proas",
+    "type": "multiple_choice",
+    "question": "Na leitura circular as Proas e Rumos contam-se:",
+    "image": null,
+    "answers": {
+      "A": "De 000º a 360º no sentido contrário dos ponteiros do relógio.",
+      "B": "De 000º a 360º no sentido dos ponteiros do relógio.",
+      "C": "De 000º a 180º no sentido dos ponteiros do relógio.",
+      "D": "De 000º a 180º no sentido contrário dos ponteiros do relógio."
+    },
+    "correct_answer": "B"
+  }
+]
