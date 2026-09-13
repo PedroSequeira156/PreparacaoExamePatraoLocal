@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Diga as cores, forma, alvo e luz de uma Marca de Perigo Isolado?",
+    "image": null,
+    "correct_answer": "Cores preta e vermelha; forma facultativa; alvo: duas esferas pretas sobrepostas; luz de cor branca."
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Para que servem as Marcas Cardeais?",
+    "image": null,
+    "correct_answer": "Indicam onde se situam as águas mais profundas que se encontram no quadrante que lhe dá o nome."
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Diga para que serve a Marca de Águas Limpas e a sua cor?",
+    "image": null,
+    "correct_answer": "Indica que as águas são navegáveis em torno da marca; tem cor vermelha e branca em faixas verticais."
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Diga como se apresenta a Marca Cardeal Leste em relação à cor, forma e luz?",
+    "image": null,
+    "correct_answer": "Cor preta e amarela; forma fuso ou antena; luz branca."
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Diga como se apresenta a Marca Cardeal Sul em relação à cor, forma e luz?",
+    "image": null,
+    "correct_answer": "Cor preta e amarela; forma fuso ou antena; luz branca."
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Identifique a marca. Região? Numeração? Forma da Marca? Luz? Qual o bordo pelo qual à entrada a deve deixar? Ver Figura 23 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Lateral Modificada; Região A; numeração ímpar; forma cónica, fuso ou antena; luz de cor verde; deve ser deixada por estibordo."
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Identifique a marca. Região? Numeração? Forma da Marca? Luz? Qual o bordo pelo qual à entrada a deve deixar? Ver Figura 22 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Lateral Modificada; Região A; numeração par; forma cilíndrica, fuso ou antena; luz de cor vermelha; deve ser deixada por bombordo."
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "multiple_choice",
+    "question": "As marcas cardeais, em que o alvo superior aponta para baixo e o alvo inferior aponta para cima, indica, que o perigo está a:",
+    "image": null,
+    "answers": {
+      "A": "Oeste em relação à bóia",
+      "B": "Sul em relação à bóia",
+      "C": "Norte em relação à bóia",
+      "D": "Este em relação à bóia"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "As características das Marcas Laterais de Bombordo (região A) são as seguintes: Cor, Forma, Alvo e Luz.",
+    "image": null,
+    "correct_answer": "Cor vermelha; forma cilíndrica, fuso ou antena; alvo: cilindro vermelho; luz vermelha."
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "multiple_choice",
+    "question": "As marcas cardeais, em que o alvo superior aponta para cima e o alvo inferior aponta para baixo, indica, que o perigo está a:",
+    "image": null,
+    "answers": {
+      "A": "Norte em relação à bóia",
+      "B": "Sul em relação à bóia",
+      "C": "Oeste em relação à bóia",
+      "D": "Leste em relação à bóia"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "multiple_choice",
+    "question": "As marcas cardeais, em que os dois alvos apontam ambos para cima, indicam que as águas mais profundas estão a:",
+    "image": null,
+    "answers": {
+      "A": "Oeste",
+      "B": "Sul",
+      "C": "Norte",
+      "D": "Este"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "As bóias de aquisição de dados oceânicos (ODAS) são:",
+    "image": null,
+    "correct_answer": "Marcas Especiais: cor amarela; forma fuso ou antena; alvo: cruz amarela."
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Indique as características das Marcas de Perigo Isolado: Alvo, Cor, Forma e Luz.",
+    "image": null,
+    "correct_answer": "Alvo: duas esferas pretas sobrepostas; cor: vermelho e preto; forma: facultativa; luz: branca."
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Indica? Ver Figura 27 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Cardeal Oeste; indica onde se situam as águas mais profundas. Neste caso, a OESTE."
+  },
+  {
+    "id": 15,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "multiple_choice",
+    "question": "As marcas cardeais, em que os dois alvos apontam para baixo, indicam que as águas mais profundas estão a:",
+    "image": null,
+    "answers": {
+      "A": "Oeste",
+      "B": "Sul",
+      "C": "Norte",
+      "D": "Este"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 16,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Indica? Ver Figura 28 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Cardeal Sul; indica que as águas mais profundas se encontram no quadrante Sul em relação à marca."
+  },
+  {
+    "id": 17,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Identifique a marca. Região? Numeração? Forma da Marca? Luz? Qual o bordo pelo qual à entrada a deve deixar? Ver Figura 20 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Lateral; Região A; numeração ímpar; forma cónica, fuso ou antena; luz de cor verde; deve ser deixada por estibordo."
+  },
+  {
+    "id": 18,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Significado. Ver Figura 31 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca de Águas Limpas; significa que as águas são navegáveis em torno da marca."
+  },
+  {
+    "id": 19,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Significado. Ver Figura 30 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca de Perigo Isolado; significa que existe algum obstáculo no local, debaixo da bóia."
+  },
+  {
+    "id": 20,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Indica? Ver Figura 26 do Anexo.",
+    "image": null,
+    "correct_answer": "Cardeal Norte; indica onde se situam as águas mais profundas. Neste caso, a NORTE."
+  },
+  {
+    "id": 21,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Para que servem as marcas de bifurcação e confluência?",
+    "image": null,
+    "correct_answer": "Para indicar o canal principal numa bifurcação."
+  },
+  {
+    "id": 22,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "multiple_choice",
+    "question": "Ao sair de um porto (região A), as marcas laterais a bombordo da embarcação são de cor:",
+    "image": null,
+    "answers": {
+      "A": "Preta e vermelha",
+      "B": "Preta e amarela",
+      "C": "Verde",
+      "D": "Vermelha"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 23,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "As características das Marcas de Águas Limpas são as seguintes: Cor, Forma, Alvo e Luz.",
+    "image": null,
+    "correct_answer": "Cor branca e vermelha; forma esférica, fuso ou antena; alvo: esfera vermelha; luz branca."
+  },
+  {
+    "id": 24,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "À entrada de um porto (região A), as marcas laterais a BB são: Cor, Forma e Número.",
+    "image": null,
+    "correct_answer": "Cor: vermelho; forma: cilíndrica, fuso ou antena; número: par."
+  },
+  {
+    "id": 25,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Significado. Ver Figura 32 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Especial; define uma configuração especial. Pode ser uma bóia ODAS, pode delimitar um campo de tiro, conduta de esgotos, etc."
+  },
+  {
+    "id": 26,
+    "topic": "Navegacao",
+    "subtopic": "Balizagem",
+    "type": "written",
+    "question": "Marca? Indica? Ver Figura 29 do Anexo.",
+    "image": null,
+    "correct_answer": "Marca Cardeal Este; indica que as águas mais profundas se encontram no quadrante Este."
+  }
+]
