@@ -28,6 +28,11 @@ const QUESTION_BANKS = [
     topic: "Navegacao",
     subtopic: "Agulha Magnetica",
     path: "questions/Navegacao/AgulhaMagnetica/questions.json"
+  },
+  {
+    topic: "Navegacao",
+    subtopic: "Balizagem",
+    path: "questions/Navegacao/Balizagem/questions.json"
   }
 ];
 
@@ -219,10 +224,16 @@ function startExam(selectedTopics) {
       .filter(q => q.subtopic === "Agulha Magnetica")
       .sort(() => Math.random() - 0.5)
       .slice(0, 1);
-
+    
+    const balizagem = questions
+      .filter(q => q.subtopic === "Balizagem")
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 1);
+    
     examQuestions.push(
       ...generalidades,
-      ...agulhaMagnetica
+      ...agulhaMagnetica,
+      ...balizagem
     );
   }
 
@@ -664,8 +675,8 @@ function showFinalScore() {
 
   document.getElementById("result").innerHTML = `
     <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
-    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.6</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.6</p>
+    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 0.9</p>
+    <p><strong>Total:</strong> ${score.toFixed(1)} / 4.9</p>
   `;
 
 
