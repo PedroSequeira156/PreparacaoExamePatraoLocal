@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Os azimutes contam-se:",
+    "image": null,
+    "answers": {
+      "A": "De 0º a 360º no sentido contrário aos ponteiros do relógio.",
+      "B": "De 0º a 180º no sentido contrário aos ponteiros do relógio.",
+      "C": "De 0º a 360º no sentido dos ponteiros do relógio.",
+      "D": "De 0º a 180º no sentido dos ponteiros do relógio."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Com que valor entra na Tabela de desvios para calcular o valor do Azimute Verdadeiro?",
+    "image": null,
+    "answers": {
+      "A": "Com o Rumo.",
+      "B": "Com o Azimute da Agulha.",
+      "C": "Com a Proa Verdadeira.",
+      "D": "Com a Proa da Agulha."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Defina Azimute Verdadeiro.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte Magnético e a linha que une o olho do observador à conhecença.",
+      "B": "É o ângulo entre o Norte Magnético e a linha que une o olho do observador ao Farol.",
+      "C": "É o ângulo entre o Norte da agulha e a linha que une o olho do observador ao Farol.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Defina Azimute da Agulha.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte Magnético e a linha que une o olho do observador à conhecença.",
+      "B": "É o ângulo entre o Norte e a linha que une o olho do observador ao Farol.",
+      "C": "É o ângulo entre Meridiano da agulha e a linha que une o olho do observador ao Farol.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "written",
+    "question": "Como se pode obter um Azimute?",
+    "image": null,
+    "correct_answer": "Com um Aparelho de Marcar."
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Defina Azimute Magnético.",
+    "image": null,
+    "answers": {
+      "A": "É o ângulo entre o Norte da Agulha e a linha que une o olho do observador à conhecença.",
+      "B": "É o ângulo entre o Norte e a linha que une o olho do observador ao Farol.",
+      "C": "É o ângulo entre o Meridiano Magnético e a linha que une o olho do observador ao Farol.",
+      "D": "É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Os azimutes magnéticos para serem traçados nas cartas têm:",
+    "image": null,
+    "answers": {
+      "A": "Que ser convertidos em Azimutes de Agulha.",
+      "B": "Que ser convertidos em Azimutes verdadeiros.",
+      "C": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Azimute Magnético é o ângulo entre:",
+    "image": null,
+    "answers": {
+      "A": "O Norte e a visual para a conhecença.",
+      "B": "O Norte Magnético e a proa da embarcação.",
+      "C": "O Norte Magnético e a visual para o alvo.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "O Azimute que se obtém com a Agulha de Marcar é o:",
+    "image": null,
+    "answers": {
+      "A": "Azimute Magnético.",
+      "B": "Azimute da Agulha.",
+      "C": "Azimute Verdadeiro.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Se tirar um só azimute a uma conhecença, ele define:",
+    "image": null,
+    "answers": {
+      "A": "Uma posição marcada.",
+      "B": "Uma posição carteada.",
+      "C": "Uma linha de posição.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Um Azimute obtém-se por / com recurso a:",
+    "image": null,
+    "answers": {
+      "A": "Uma agulha de governo.",
+      "B": "Um sextante.",
+      "C": "Uma Agulha (com aparelho) de Marcar.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 12,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Azimute Verdadeiro é o ângulo entre:",
+    "image": null,
+    "answers": {
+      "A": "O Norte e a visual para a conhecença.",
+      "B": "O Meridiano da Agulha e a proa da embarcação.",
+      "C": "O Norte Verdadeiro e a visual para o alvo.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 13,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Azimute da Agulha é o ângulo entre:",
+    "image": null,
+    "answers": {
+      "A": "O Norte e a visual para a conhecença.",
+      "B": "O Norte da Agulha e a proa da embarcação.",
+      "C": "O Norte da Agulha e a visual para o alvo.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 14,
+    "topic": "Navegacao",
+    "subtopic": "Azimutes",
+    "type": "multiple_choice",
+    "question": "Azimute Magnético é o ângulo entre:",
+    "image": null,
+    "answers": {
+      "A": "O Norte e a visual para a conhecença.",
+      "B": "O Norte Magnético e a proa da embarcação.",
+      "C": "O Norte Magnético e a visual para o alvo.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "C"
+  }
+]
