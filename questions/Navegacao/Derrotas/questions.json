@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "multiple_choice",
+    "question": "As distâncias na Carta de Mercator medem-se:",
+    "image": null,
+    "answers": {
+      "A": "Na escala das Longitudes.",
+      "B": "Na escala das Latitudes.",
+      "C": "No Equador.",
+      "D": "Na escala das Latitudes ou no Equador."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 2,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "written",
+    "question": "O que entende por Derrota Ortodrómica?",
+    "image": null,
+    "correct_answer": "Arco do círculo máximo que representa a distância mais curta entre dois pontos na esfera terrestre."
+  },
+  {
+    "id": 3,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "written",
+    "question": "O que entende por Derrota Loxodrómica?",
+    "image": null,
+    "correct_answer": "É a linha que une dois pontos na Carta do Mercator, formando ângulos constantes com todos os meridianos."
+  },
+  {
+    "id": 4,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "multiple_choice",
+    "question": "A que Derrota corresponde o arco do círculo máximo que representa a distância mais curta entre dois pontos?",
+    "image": null,
+    "answers": {
+      "A": "Rumo.",
+      "B": "Loxodrómica.",
+      "C": "Proa Verdadeira.",
+      "D": "Ortodrómica."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 5,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "multiple_choice",
+    "question": "Diga quais são as unidades de medida que existem nas cartas de Mercator?",
+    "image": null,
+    "answers": {
+      "A": "Minuto de Latitude – Valor crescendo com a Latitude. Minuto de Longitude – Valor constante.",
+      "B": "Minuto de Latitude – Valor crescendo com a Latitude. Minuto de Longitude – Valor crescendo com a Longitude.",
+      "C": "Minuto de Latitude – Valor crescendo com a Longitude. Minuto de Longitude – Valor constante.",
+      "D": "Nenhuma está certa."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 6,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "multiple_choice",
+    "question": "Derrota loxodrómica é a:",
+    "image": null,
+    "answers": {
+      "A": "É a linha que une dois pontos na Carta do Mercator, formando ângulos constantes com todos os meridianos.",
+      "B": "Distância mais curta que une dois pontos no Hemisfério terrestre.",
+      "C": "Proa da Agulha traçada na Carta de Mercator.",
+      "D": "Nenhuma se aplica."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 7,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "multiple_choice",
+    "question": "A navegação loxodrómica é representada na Carta de Mercator por:",
+    "image": null,
+    "answers": {
+      "A": "Um segmento de recta.",
+      "B": "Uma curva.",
+      "C": "Várias rectas.",
+      "D": "Rectas e curvas."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 8,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "written",
+    "question": "Complete a frase: Na Carta de Mercator a Proa é representada por um segmento __________ formando com os __________ ângulos iguais.",
+    "image": null,
+    "correct_answer": "Na Carta de Mercator a Proa é representada por um segmento de recta formando com os meridianos ângulos iguais."
+  },
+  {
+    "id": 9,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "written",
+    "question": "O que se entende, em navegação por “derrota”?",
+    "image": null,
+    "correct_answer": "Caminho seguido por uma embarcação para se deslocar, de um ponto de partida a um ponto de chegada."
+  },
+  {
+    "id": 10,
+    "topic": "Navegacao",
+    "subtopic": "Derrotas",
+    "type": "written",
+    "question": "Como se comportam as escalas de latitude e de longitude na Carta de Mercator?",
+    "image": null,
+    "correct_answer": "A longitude mantém-se constante e a latitude é variável."
+  }
+]
