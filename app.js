@@ -63,7 +63,7 @@ const QUESTION_BANKS = [
   {
     topic: "Radiocomunicacoes",
     subtopic: "Radiocomunicacoes",
-    path: "questions/Radiocomunicacoes/Radiocomunicacoes/questions.json"
+    path: "questions/Radiocomunicacoes/questions.json"
   }
 ];
 
