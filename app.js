@@ -930,6 +930,8 @@ function showFinalScore() {
       } else if (question.topic === "Navegacao") {
         navegacaoScore += 0.3;
       }
+      } else if (question.topic === "Radiocomunicacoes") { 
+        radiocomunicacoesScore += 0.4;
     }
   });
 
@@ -961,6 +963,7 @@ function showFinalScore() {
     document.getElementById("result").innerHTML = `
       <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
       <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 2.4</p>
+      <p><strong>Radiocomunicacoes:</strong> ${radiocomunicacoesScore.toFixed(1)} / 2</p>
       <p><strong>Total:</strong> ${score.toFixed(1)} / 6.4</p>
     `;
   }
