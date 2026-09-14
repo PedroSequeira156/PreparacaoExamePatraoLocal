@@ -370,7 +370,7 @@ function startTopicPractice(selectedTopic, selectedSubtopic) {
       q.subtopic === selectedSubtopic
     )
     .sort(() => Math.random() - 0.5)
-    .slice(0, 12);
+    .slice(0, 10);
 
 
   if (examQuestions.length === 0) {
