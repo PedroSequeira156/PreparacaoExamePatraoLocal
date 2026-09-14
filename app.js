@@ -67,6 +67,7 @@ let examQuestions = [];
 let currentQuestion = null;
 let currentQuestionIndex = 0;
 let score = 0;
+let practiceMode = false;
 
 
 // ===============================
@@ -341,7 +342,7 @@ function showPracticeSubtopicSelection(selectedTopic) {
 }
 
 function startTopicPractice(selectedTopic, selectedSubtopic) {
-
+  practiceMode = true;
   examQuestions = questions
     .filter(q =>
       q.topic === selectedTopic &&
@@ -374,7 +375,7 @@ function startTopicPractice(selectedTopic, selectedSubtopic) {
 // ===============================
 
 function startExam(selectedTopics) {
-
+  practiceMode = false;
   examQuestions = [];
 
   // -------------------------------
@@ -906,11 +907,24 @@ function showFinalScore() {
   document.getElementById("answers-container").innerHTML = "";
 
 
-  document.getElementById("result").innerHTML = `
-    <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
-    <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 2.4</p>
-    <p><strong>Total:</strong> ${score.toFixed(1)} / 6.4</p>
-  `;
+  if (practiceMode) {
+  
+    const correctAnswers = examQuestions.filter(
+      question => question.wasCorrect
+    ).length;
+  
+    document.getElementById("result").innerHTML = `
+      <p><strong>Score:</strong> ${correctAnswers} / ${examQuestions.length}</p>
+    `;
+  
+  } else {
+  
+    document.getElementById("result").innerHTML = `
+      <p><strong>RIEAM:</strong> ${rieamScore.toFixed(1)} / 4</p>
+      <p><strong>Navegacao:</strong> ${navegacaoScore.toFixed(1)} / 2.4</p>
+      <p><strong>Total:</strong> ${score.toFixed(1)} / 6.4</p>
+    `;
+  }
 
 
   document.getElementById("submit-button").style.display =
