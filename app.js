@@ -150,7 +150,7 @@ function showTopicSelection() {
   navegacaoLabel.innerHTML = `
     <input type="checkbox" id="navegacao-checkbox">
     <strong>Navegacao</strong>
-    <span>2 questions</span>
+    <span>8 questions</span>
   `;
 
   answersContainer.appendChild(navegacaoLabel);
