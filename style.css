@@ -9,6 +9,7 @@ body {
   color: #222;
 }
 
+
 .container {
   width: min(900px, 92%);
   margin: 40px auto;
@@ -85,7 +86,7 @@ h1 {
 }
 
 button {
-  margin-top: 20px;
+  margin: 5px;
   padding: 12px 20px;
   border: none;
   border-radius: 6px;
@@ -103,3 +104,5 @@ button:hover {
   margin-top: 15px;
   font-weight: bold;
 }
+
+
