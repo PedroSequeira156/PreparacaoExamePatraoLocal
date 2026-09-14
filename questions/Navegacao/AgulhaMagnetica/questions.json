@@ -36,7 +36,7 @@
     "id": 5,
     "topic": "Navegacao",
     "subtopic": "Agulha Magnetica",
-    "type": "multiple_choice",
+    "type": "written",
     "question": "Onde se pode obter o valor do desvio.",
     "image": null,
     "correct_answer": "Na Tabela de Desvios da embarcação"
