@@ -59,6 +59,11 @@ const QUESTION_BANKS = [
     topic: "Navegacao",
     subtopic: "Rumos e Proas",
     path: "questions/Navegacao/RumosEProas/questions.json"
+  },
+  {
+    topic: "Radiocomunicacoes",
+    subtopic: "Radiocomunicacoes",
+    path: "questions/Radiocomunicacoes/Radiocomunicacoes/questions.json"
   }
 ];
 
@@ -207,6 +212,18 @@ function showExamTopicSelection() {
   answersContainer.appendChild(navegacaoLabel);
 
 
+  // Radiocomunicacoes checkbox
+  const radiocomunicacoesLabel = document.createElement("label");
+  radiocomunicacoesLabel.className = "answer-option";
+  
+  radiocomunicacoesLabel.innerHTML = `
+    <input type="checkbox" id="radiocomunicacoes-checkbox">
+    <strong>Radiocomunicacoes</strong>
+    <span>8 questions</span>
+  `;
+  
+  answersContainer.appendChild(radiocomunicacoesLabel);
+
   // Start button
   const startButton = document.createElement("button");
 
@@ -223,6 +240,10 @@ function showExamTopicSelection() {
 
     if (document.getElementById("navegacao-checkbox").checked) {
       selectedTopics.push("Navegacao");
+    }
+
+    if (document.getElementById("radiocomunicacoes-checkbox").checked) {
+      selectedTopics.push("Radiocomunicacoes");
     }
 
     if (selectedTopics.length === 0) {
@@ -471,6 +492,24 @@ function startExam(selectedTopics) {
     );
   }
 
+  // -------------------------------
+  // RADIOCOMUNICACOES
+  // -------------------------------
+  
+  if (selectedTopics.includes("Radiocomunicacoes")) {
+  
+    const radiocomunicacoes = questions
+      .filter(q =>
+        q.topic === "Radiocomunicacoes" &&
+        q.subtopic === "Radiocomunicacoes"
+      )
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 8);
+  
+    examQuestions.push(
+      ...radiocomunicacoes
+    );
+  }
 
   // Mix all selected questions together
   examQuestions.sort(() => Math.random() - 0.5);
