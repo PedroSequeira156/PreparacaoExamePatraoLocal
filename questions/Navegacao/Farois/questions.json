@@ -5,7 +5,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q01",
+    "image": "images/Navegacao_Farois_Q01.png",
     "correct_answer": "3 Relâmpagos; Período de 11,5 segundos."
   },
   {
@@ -14,7 +14,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q02",
+    "image": "images/Navegacao_Farois_Q02.png",
     "correct_answer": "3 Relâmpagos; Período de 15 segundos."
   },
   {
@@ -23,7 +23,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q03",
+    "image": "images/Navegacao_Farois_Q03.png",
     "correct_answer": "1 Relâmpago; Período de 3 segundos."
   },
   {
@@ -32,7 +32,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q04",
+    "image": "images/Navegacao_Farois_Q04.png",
     "correct_answer": "3 Ocultações; Período de 15 segundos."
   },
   {
@@ -41,7 +41,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q05",
+    "image": "images/Navegacao_Farois_Q05.png",
     "correct_answer": "1 Relâmpago; Período de 4 segundos."
   },
   {
@@ -50,7 +50,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q06",
+    "image": "images/Navegacao_Farois_Q06.png",
     "correct_answer": "3 Ocultações; Período de 12 segundos."
   },
   {
@@ -59,7 +59,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q07",
+    "image": "images/Navegacao_Farois_Q07.png",
     "correct_answer": "Isofásica; Período de 4 segundos."
   },
   {
@@ -68,7 +68,7 @@
     "subtopic": "Farois",
     "type": "written",
     "question": "Avista um Farol com esta sequência e duração:\nDiga qual a:\na) Característica da luz.\nb) Período.",
-    "image": "images/Navegacao_Farois_Q08",
+    "image": "images/Navegacao_Farois_Q08.png",
     "correct_answer": "Isofásica; Período de 2 segundos."
   },
   {
