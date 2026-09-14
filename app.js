@@ -115,13 +115,15 @@ async function loadQuestions() {
 // TOPIC SELECTION
 // ===============================
 
+
+
 function showTopicSelection() {
   document.getElementById("topic").textContent = "";
   document.getElementById("subtopic").textContent = "";
   document.getElementById("question-number").textContent = "";
 
   document.getElementById("question").textContent =
-    "Choose the topics you want to be examined on:";
+    "How would you like to practise?";
 
   document.getElementById("image-container").innerHTML = "";
 
@@ -130,8 +132,55 @@ function showTopicSelection() {
 
   answersContainer.innerHTML = "";
 
+  document.getElementById("submit-button").style.display = "none";
+  document.getElementById("result").textContent = "";
+
+
+  // ===============================
+  // EXAM MODE
+  // ===============================
+
+  const examButton = document.createElement("button");
+
+  examButton.textContent = "Exam Mode";
+  examButton.type = "button";
+
+  examButton.addEventListener("click", () => {
+    showExamTopicSelection();
+  });
+
+  answersContainer.appendChild(examButton);
+
+
+  // ===============================
+  // TOPIC PRACTICE
+  // ===============================
+
+  const topicButton = document.createElement("button");
+
+  topicButton.textContent = "Topic Practice";
+  topicButton.type = "button";
+
+  topicButton.addEventListener("click", () => {
+    showPracticeTopicSelection();
+  });
+
+  answersContainer.appendChild(topicButton);
+}
+
+function showExamTopicSelection() {
+  document.getElementById("question").textContent =
+    "Choose the topics you want to be examined on:";
+
+  const answersContainer =
+    document.getElementById("answers-container");
+
+  answersContainer.innerHTML = "";
+
+
   // RIEAM checkbox
   const rieamLabel = document.createElement("label");
+
   rieamLabel.className = "answer-option";
 
   rieamLabel.innerHTML = `
@@ -145,6 +194,7 @@ function showTopicSelection() {
 
   // Navegacao checkbox
   const navegacaoLabel = document.createElement("label");
+
   navegacaoLabel.className = "answer-option";
 
   navegacaoLabel.innerHTML = `
@@ -159,9 +209,8 @@ function showTopicSelection() {
   // Start button
   const startButton = document.createElement("button");
 
-  startButton.id = "start-exam-button";
-  startButton.type = "button";
   startButton.textContent = "Start Exam";
+  startButton.type = "button";
 
   startButton.addEventListener("click", () => {
 
@@ -187,8 +236,136 @@ function showTopicSelection() {
 
   answersContainer.appendChild(startButton);
 
-  document.getElementById("submit-button").style.display = "none";
-  document.getElementById("result").textContent = "";
+
+  // Back button
+  const backButton = document.createElement("button");
+
+  backButton.textContent = "Back";
+  backButton.type = "button";
+
+  backButton.addEventListener("click", () => {
+    showTopicSelection();
+  });
+
+  answersContainer.appendChild(backButton);
+}
+
+function showPracticeTopicSelection() {
+
+  document.getElementById("question").textContent =
+    "Choose a topic to practise:";
+
+  const answersContainer =
+    document.getElementById("answers-container");
+
+  answersContainer.innerHTML = "";
+
+
+  // Create one button for each topic
+  const topics = [...new Set(
+    QUESTION_BANKS.map(bank => bank.topic)
+  )];
+
+
+  topics.forEach(topic => {
+
+    const button = document.createElement("button");
+
+    button.textContent = topic;
+    button.type = "button";
+
+    button.addEventListener("click", () => {
+      showPracticeSubtopicSelection(topic);
+    });
+
+    answersContainer.appendChild(button);
+  });
+
+
+  // Back button
+  const backButton = document.createElement("button");
+
+  backButton.textContent = "Back";
+  backButton.type = "button";
+
+  backButton.addEventListener("click", () => {
+    showTopicSelection();
+  });
+
+  answersContainer.appendChild(backButton);
+}
+
+function showPracticeSubtopicSelection(selectedTopic) {
+
+  document.getElementById("question").textContent =
+    `Choose a sub-topic from ${selectedTopic}:`;
+
+  const answersContainer =
+    document.getElementById("answers-container");
+
+  answersContainer.innerHTML = "";
+
+
+  // Find all sub-topics belonging to the selected topic
+  const subtopics = QUESTION_BANKS
+    .filter(bank => bank.topic === selectedTopic)
+    .map(bank => bank.subtopic);
+
+
+  subtopics.forEach(subtopic => {
+
+    const button = document.createElement("button");
+
+    button.textContent = subtopic;
+    button.type = "button";
+
+    button.addEventListener("click", () => {
+      startTopicPractice(selectedTopic, subtopic);
+    });
+
+    answersContainer.appendChild(button);
+  });
+
+
+  // Back button
+  const backButton = document.createElement("button");
+
+  backButton.textContent = "Back";
+  backButton.type = "button";
+
+  backButton.addEventListener("click", () => {
+    showPracticeTopicSelection();
+  });
+
+  answersContainer.appendChild(backButton);
+}
+
+function startTopicPractice(selectedTopic, selectedSubtopic) {
+
+  examQuestions = questions
+    .filter(q =>
+      q.topic === selectedTopic &&
+      q.subtopic === selectedSubtopic
+    )
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 12);
+
+
+  if (examQuestions.length === 0) {
+
+    document.getElementById("result").textContent =
+      "No questions were found for this sub-topic.";
+
+    return;
+  }
+
+
+  currentQuestionIndex = 0;
+  score = 0;
+
+  document.getElementById("submit-button").style.display = "";
+
+  showQuestion();
 }
 
 
