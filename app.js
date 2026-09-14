@@ -504,7 +504,7 @@ function startExam(selectedTopics) {
         q.subtopic === "Radiocomunicacoes"
       )
       .sort(() => Math.random() - 0.5)
-      .slice(0, 8);
+      .slice(0, 5);
   
     examQuestions.push(
       ...radiocomunicacoes
