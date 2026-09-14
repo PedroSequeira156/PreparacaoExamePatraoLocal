@@ -219,7 +219,7 @@ function showExamTopicSelection() {
   radiocomunicacoesLabel.innerHTML = `
     <input type="checkbox" id="radiocomunicacoes-checkbox">
     <strong>Radiocomunicacoes</strong>
-    <span>8 questions</span>
+    <span>5 questions</span>
   `;
   
   answersContainer.appendChild(radiocomunicacoesLabel);
