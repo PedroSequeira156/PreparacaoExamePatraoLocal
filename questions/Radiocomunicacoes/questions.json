@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Em que local deve instalar a bordo o equipamento de radiocomunicações?",
+    "correct_answer": "Junto do local de governo ou junto da mesa de navegação protegido da água e da chuva"
+  },
+  {
+    "id": 2,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Que deve fazer antes de efectuar uma chamada no canal 16? (Como deve proceder para efectuar uma chamada no canal 16?)",
+    "correct_answer": "a) Verificar qual o canal de trabalho da estação que vai chamar; b) Ter uma ideia do que vai dizer (preparar a mensagem); c) Se possível, utilizar a potência reduzida; d) Não começar a comunicação antes de verificar que não está outra comunicação em curso; e) Falar claro e devagar"
+  },
+  {
+    "id": 3,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Em que canal deve estar ligado para escuta, quando sai para o mar?",
+    "correct_answer": "A",
+    "answers": [
+      "16",
+      "12",
+      "11",
+      "06"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Explique para que é usada a frase: “Silence MÊDÊ”",
+    "correct_answer": "Quando a estação que pediu socorro, ou a que ouviu, queira impor silêncio porque decorre uma comunicação de socorro"
+  },
+  {
+    "id": 5,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Alguns procedimentos antes de começar uma comunicação? Complete as frases. Verificar o canal de ______________ e de ______________ da estação que vai chamar. Se possível utilizar a _________________________________ .",
+    "correct_answer": "Verificar o canal de Chamada e de Trabalho da estação que vai chamar. Se possível utilizar a de Trabalho."
+  },
+  {
+    "id": 6,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Em que local deve instalar a antena e porquê?",
+    "correct_answer": "O mais alto possível para ter o maior alcance possível"
+  },
+  {
+    "id": 7,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga quais os tipos de chamadas que conhece?",
+    "correct_answer": "Socorro; Urgência; Segurança; Normal"
+  },
+  {
+    "id": 8,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Que palavra é que usa para cada uma destas chamadas? Socorro; Segurança; Urgência",
+    "correct_answer": "Socorro – Mêdê; Segurança – Sêcuritê; Urgência – PanePane"
+  },
+  {
+    "id": 9,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Em que local deve ser instalada a bateria? Responda à pergunta que lhe parecer mais correcta.",
+    "correct_answer": "D",
+    "answers": [
+      "Ao nível da linha de água e a antena o mais alto possível.",
+      "Ao nível da linha de água e com uma bateria só para o VHF.",
+      "A um nível inferior ao da linha de água.",
+      "A um nível superior ao da linha de água, com uma bateria só para o VHF, e a antena colocada o mais alta possível."
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Que autorizações tem que pedir e a quem, para montar um equipamento Radiotelefone (VHF), a bordo do seu Iate?",
+    "correct_answer": "Autorização do IPTM para montar equipamento homologado. Requerer licença de Estação onde vem inscrito o Indicativo de chamada e o MMSI da embarcação."
+  },
+  {
+    "id": 11,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Explique para que é usada a frase: “Mêdê Relé”",
+    "correct_answer": "Retransmissão de chamada de socorro. Quando houver uma chamada de socorro e a mesma não for ouvida por qualquer outra estação, pode em nome da embarcação sinistrada fazer a chamada de socorro, começando por dizer “Mêdê Relê”."
+  },
+  {
+    "id": 12,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "O que não é autorizado no uso do VHF? Complete a frase. O uso de sinais ou ____________ que não sejam aqueles que estão estabelecidos.",
+    "correct_answer": "O uso de sinais ou Códigos que não sejam aqueles que estão estabelecidos"
+  },
+  {
+    "id": 13,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Explique para que é usada a frase: “Silence Fini”",
+    "correct_answer": "Fim da imposição de silêncio numa comunicação de socorro."
+  },
+  {
+    "id": 14,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga qual o canal que deve usar numa chamada de: Socorro; Para um Porto de recreio; Entre dois Iates; No Porto de Lisboa",
+    "correct_answer": "Socorro 16; Para um Porto de recreio 9; Entre dois iates 9; No porto de Lisboa 12"
+  },
+  {
+    "id": 15,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "A Comunicação de “Socorro” deve ser utilizada quando:",
+    "correct_answer": "Quando a embarcação se encontra sob a ameaça de um perigo grave e necessite de auxílio imediato (ou para os passageiros). Exemplos: incêndio ou rombo com naufrágio eminente."
+  },
+  {
+    "id": 16,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "A Comunicação de “Urgência” deve ser utilizada quando:",
+    "correct_answer": "Quando a chamada se referir a uma mensagem que disser respeito à segurança da embarcação ou de algum tripulante doente ou sinistrado. Exemplos: ficou sem máquina ou perdeu o leme. Não é necessário ser ajuda imediata mas sim urgente."
+  },
+  {
+    "id": 17,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga como soletra as seguintes letras. A, D, Z, O, S, Q",
+    "correct_answer": "A-Alfa; D-Delta; Z-Zulu; O-Oscar; S-Sierra; Q-Quebec"
+  },
+  {
+    "id": 18,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga como faria uma chamada de “Socorro” em VHF no caso de ter um rombo na sua embarcação, sem possibilidade de esgotar a água. Nome da embarcação: SIRIUS. Posição: 7 milhas a SW do cabo Espichel. Diga também como deve responder a estação que ouvir o pedido e como deve responder à estação a embarcação que pediu socorro.",
+    "correct_answer": "Mêdê Mêdê Mêdê\nAqui\nSirius Sirius Sirius\nMêdê\nAqui\nSirius\nPosição 7 milhas a SW do Cabo Espichel\nTenho um rombo abaixo da linha de água\nNecessito auxílio imediato\nEscuto\n\nMêdê\nSirius Sirius Sirius\nAqui\nPilotos Pilotos Pilotos\nCompreendido Mêdê\nVou comunicar autoridades competentes\nEscuto\n\nMêdê\nPilotos\nAqui\nSirius\nCompreendido\nFico escuta canal 16\nTerminado"
+  },
+  {
+    "id": 19,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga como faria uma chamada de “Urgência” em VHF no caso de ter um doente grave na sua embarcação. Nome da embarcação: SIRIUS. Posição: 7 milhas a SW do cabo Espichel. Diga também como deve responder a estação que ouvir o pedido e como deve responder à estação a embarcação que pediu socorro.",
+    "correct_answer": "PanePane PanePane PanePane\nAqui\nSirius Sirius Sirius\nPanePane\nAqui\nSirius\nPosição 7 milhas a SW do Cabo Espichel\nTenho doente grave a bordo\nNecessito auxílio urgente\nEscuto\n\nPanePane\nSirius Sirius Sirius\nAqui\nPilotos Pilotos Pilotos\nCompreendido PanePane\nVou comunicar autoridades competentes\nEscuto\n\nPanePane\nPilotos\nAqui\nSirius\nCompreendido\nFico escuta canal 16\nTerminado"
+  },
+  {
+    "id": 20,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual das chamadas usa para: Boletim Meteorológico; Tripulante com um braço partido; Aviso de contentor à deriva",
+    "correct_answer": "Boletim Meteorológico – Sêcuritê; Tripulante com um braço partido – PanePane; Aviso de contentor - Sêcuritê"
+  },
+  {
+    "id": 21,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “Perguntar se recebeu e compreendeu a mensagem”",
+    "correct_answer": "Acuse a recepção"
+  },
+  {
+    "id": 22,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "A Comunicação de “Segurança” deve ser utilizada quando:",
+    "correct_answer": "Para transmitir um aviso importante ou vital à navegação ou avisos meteorológicos importantes."
+  },
+  {
+    "id": 23,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “Sim ou autorização concedida”",
+    "correct_answer": "Afirmativo"
+  },
+  {
+    "id": 24,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Indique por ordem de prioridade as comunicações de: Segurança, Socorro e Urgência.",
+    "correct_answer": "Socorro; Urgência; Segurança"
+  },
+  {
+    "id": 25,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “Recebi completamente a sua última transmissão”",
+    "correct_answer": "Compreendido"
+  },
+  {
+    "id": 26,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Quem é o responsável a bordo pelas comunicações?",
+    "correct_answer": "A",
+    "answers": [
+      "O Comandante.",
+      "O tripulante que tiver licença de Radiotelefonista.",
+      "O Comandante e o tripulante que tiver licença de Radiotelefonista.",
+      "A a) e a c) estão certas."
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “Mude para o canal”",
+    "correct_answer": "Passe a"
+  },
+  {
+    "id": 28,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Diga a expressão que usa para transmitir: “Terminei e não espero resposta”",
+    "correct_answer": "Terminado"
+  },
+  {
+    "id": 29,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “Não estou de acordo”",
+    "correct_answer": "Negativo"
+  },
+  {
+    "id": 30,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Indique as palavras que no Código Internacional de Sinais identificam as seguintes letras: P, E, F",
+    "correct_answer": "P-Papá; E-Echo; F-Foxtrot"
+  },
+  {
+    "id": 31,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual a expressão é que usa para: “A sua transmissão está compreensível”?",
+    "correct_answer": "Claro"
+  },
+  {
+    "id": 32,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual a expressão que usa para: “Vou soletrar foneticamente”?",
+    "correct_answer": "Eu soletro"
+  },
+  {
+    "id": 33,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Como deve fazer para efectuar uma chamada no canal 16?",
+    "correct_answer": "C",
+    "answers": [
+      "Conhecer o horário de escuta e de trabalho da estação.",
+      "Tentar chamar primeiro no canal de trabalho",
+      "Depois de chamar, aguarde que a estação indique o canal de trabalho",
+      "Não mudar de canal, sem avisar primeiro a que canal vai passar"
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Sempre que ouvir a expressão MÊDÊ significa que é o indicativo de:",
+    "correct_answer": "A",
+    "answers": [
+      "Socorro.",
+      "Urgência.",
+      "Segurança.",
+      "Emergência."
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Sempre que ouvir a expressão SECURITÊ significa que é o indicativo de:",
+    "correct_answer": "C",
+    "answers": [
+      "Socorro.",
+      "Urgência.",
+      "Segurança.",
+      "Emergência."
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Em que local deve ser instalada a bateria?",
+    "correct_answer": "B",
+    "answers": [
+      "Abaixo da linha de água.",
+      "Acima da linha de água.",
+      "Ao nível da linha de água."
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Sempre que ouvir a expressão PANEPANE significa que é o indicativo de:",
+    "correct_answer": "B",
+    "answers": [
+      "Socorro.",
+      "Urgência.",
+      "Segurança.",
+      "Emergência"
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "Das seguintes expressões apenas uma se deve utilizar nas comunicações, qual?",
+    "correct_answer": "B",
+    "answers": [
+      "Obrigado.",
+      "Negativo.",
+      "Acabei a transmissão.",
+      "Bom dia."
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "O comando do radiotelefone que permite regular a intensidade do som, chama-se:",
+    "correct_answer": "B",
+    "answers": [
+      "Potência",
+      "Volume",
+      "Selector de canais",
+      "Dupla escuta"
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Qual é a expressão que usa para: “A nossa transmissão acabou, espero a sua resposta”",
+    "correct_answer": "Escuto"
+  },
+  {
+    "id": 41,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "written",
+    "question": "Indique as palavras que no Código Internacional de Sinais identificam as seguintes letras: B, H, T",
+    "correct_answer": "B- Bravo; H- Hotel; T-Tango"
+  },
+  {
+    "id": 42,
+    "topic": "RIEAM",
+    "subtopic": "Radiocomunicacoes",
+    "type": "multiple_choice",
+    "question": "O comando do radiotelefone que permite, nas comunicações normais, ouvir sem ruídos, chama-se:",
+    "correct_answer": "B",
+    "answers": [
+      "Dual watch",
+      "Squelch",
+      "Volume",
+      "Potência"
+    ]
+  }
+]
