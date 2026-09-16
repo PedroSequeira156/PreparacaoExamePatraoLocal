@@ -75,6 +75,7 @@ let score = 0;
 let practiceMode = false;
 
 
+
 // ===============================
 // LOAD QUESTIONS
 // ===============================
@@ -919,6 +920,7 @@ function showFinalScore() {
 
   let rieamScore = 0;
   let navegacaoScore = 0;
+  let radiocomunicacoesScore = 0;
 
   examQuestions.forEach(question => {
 
@@ -929,7 +931,7 @@ function showFinalScore() {
 
       } else if (question.topic === "Navegacao") {
         navegacaoScore += 0.3;
-      }
+      
       } else if (question.topic === "Radiocomunicacoes") { 
         radiocomunicacoesScore += 0.4;
     }
