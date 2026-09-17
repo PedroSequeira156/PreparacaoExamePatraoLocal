@@ -124,7 +124,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com baloa biconico.\nComplete a frase: Embarcação _____________ com um comprimento ______________ a 200 metros.",
+    "question": "Imagem com navio com baloa biconico.\nComplete a frase: Embarcação _____________ com um comprimento ______________ a 200 metros.",
     "image": null,
     "correct_answer": "a rebocar; de reboque superior"
   },
@@ -133,7 +133,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com dois baloes conicos unidos pelo vertice.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagem com navio com dois baloes conicos unidos pelo vertice.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio em faina de pesca"
   },
@@ -142,7 +142,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com dois baloes esfericos dispostos verticalmente.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagem com navio com dois baloes esfericos dispostos verticalmente.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio desgovernado"
   },
@@ -151,7 +151,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com baloes esferico-biconico-esferico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagem com navio com baloes esferico-biconico-esferico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque este é um navio com capacidade de manobra reduzida"
   },
@@ -160,7 +160,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com tres baloes esfericos dispostos verticalmente.\nQue depreende ao avistar estes sinais içados no mastro deste navio?",
+    "question": "Imagem com navio com tres baloes esfericos dispostos verticalmente.\nQue depreende ao avistar estes sinais içados no mastro deste navio?",
     "image": null,
     "correct_answer": "Navio encalhado"
   },
@@ -169,7 +169,7 @@
     "topic": "RIEAM",
     "subtopic": "Balões",
     "type": "written",
-    "question": "Imagen com navio com balao cilindrico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
+    "question": "Imagem com navio com balao cilindrico.\nAvista este navio pelo seu BB. Tem que manobrar? Porquê?",
     "image": null,
     "correct_answer": "Sim; Porque é um navio condicionado pelo calado"
   },
