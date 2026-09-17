@@ -934,6 +934,7 @@ function showFinalScore() {
       
       } else if (question.topic === "Radiocomunicacoes") { 
         radiocomunicacoesScore += 0.4;
+      }
     }
   });
 
