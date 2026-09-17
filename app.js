@@ -130,7 +130,7 @@ function showTopicSelection() {
   document.getElementById("question-number").textContent = "";
 
   document.getElementById("question").textContent =
-    "How would you like to practise?";
+    "Como gostaria de praticar?";
 
   document.getElementById("image-container").innerHTML = "";
 
@@ -149,7 +149,7 @@ function showTopicSelection() {
 
   const examButton = document.createElement("button");
 
-  examButton.textContent = "Exam Mode";
+  examButton.textContent = "Modo de Exame";
   examButton.type = "button";
 
   examButton.addEventListener("click", () => {
@@ -165,7 +165,7 @@ function showTopicSelection() {
 
   const topicButton = document.createElement("button");
 
-  topicButton.textContent = "Topic Practice";
+  topicButton.textContent = "Praticar Topicos";
   topicButton.type = "button";
 
   topicButton.addEventListener("click", () => {
@@ -177,7 +177,7 @@ function showTopicSelection() {
 
 function showExamTopicSelection() {
   document.getElementById("question").textContent =
-    "Choose the topics you want to be examined on:";
+    "Escolha os topicos incluidos:";
 
   const answersContainer =
     document.getElementById("answers-container");
@@ -193,7 +193,7 @@ function showExamTopicSelection() {
   rieamLabel.innerHTML = `
     <input type="checkbox" id="rieam-checkbox">
     <strong>RIEAM</strong>
-    <span>8 questions</span>
+    <span>8 perguntas</span>
   `;
 
   answersContainer.appendChild(rieamLabel);
@@ -207,7 +207,7 @@ function showExamTopicSelection() {
   navegacaoLabel.innerHTML = `
     <input type="checkbox" id="navegacao-checkbox">
     <strong>Navegacao</strong>
-    <span>8 questions</span>
+    <span>8 perguntas</span>
   `;
 
   answersContainer.appendChild(navegacaoLabel);
@@ -220,7 +220,7 @@ function showExamTopicSelection() {
   radiocomunicacoesLabel.innerHTML = `
     <input type="checkbox" id="radiocomunicacoes-checkbox">
     <strong>Radiocomunicacoes</strong>
-    <span>5 questions</span>
+    <span>5 perguntas</span>
   `;
   
   answersContainer.appendChild(radiocomunicacoesLabel);
@@ -228,7 +228,7 @@ function showExamTopicSelection() {
   // Start button
   const startButton = document.createElement("button");
 
-  startButton.textContent = "Start Exam";
+  startButton.textContent = "Comecar Exame";
   startButton.type = "button";
 
   startButton.addEventListener("click", () => {
@@ -263,7 +263,7 @@ function showExamTopicSelection() {
   // Back button
   const backButton = document.createElement("button");
 
-  backButton.textContent = "Back";
+  backButton.textContent = "Voltar";
   backButton.type = "button";
 
   backButton.addEventListener("click", () => {
@@ -308,7 +308,7 @@ function showPracticeTopicSelection() {
   // Back button
   const backButton = document.createElement("button");
 
-  backButton.textContent = "Back";
+  backButton.textContent = "Voltar";
   backButton.type = "button";
 
   backButton.addEventListener("click", () => {
@@ -353,7 +353,7 @@ function showPracticeSubtopicSelection(selectedTopic) {
   // Back button
   const backButton = document.createElement("button");
 
-  backButton.textContent = "Back";
+  backButton.textContent = "Voltar";
   backButton.type = "button";
 
   backButton.addEventListener("click", () => {
@@ -652,7 +652,7 @@ function renderAnswers() {
     revealButton.id = "reveal-button";
 
     revealButton.textContent =
-      "Reveal answer";
+      "Mostrar Resposta";
 
     revealButton.type = "button";
 
@@ -792,7 +792,7 @@ function revealAnswer() {
   modelAnswer.id = "model-answer";
 
   modelAnswer.innerHTML = `
-    <p><strong>Model answer:</strong></p>
+    <p><strong>Resposta Certa:</strong></p>
     <p>${currentQuestion.correct_answer}</p>
   `;
 
@@ -810,7 +810,7 @@ function revealAnswer() {
     document.createElement("button");
 
   correctButton.textContent =
-    "Correct";
+    "Correto";
 
   correctButton.type =
     "button";
@@ -820,7 +820,7 @@ function revealAnswer() {
     document.createElement("button");
 
   wrongButton.textContent =
-    "Wrong";
+    "Errado";
 
   wrongButton.type =
     "button";
