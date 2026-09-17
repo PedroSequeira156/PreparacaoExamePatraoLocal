@@ -924,7 +924,7 @@ function showFinalScore() {
 
   examQuestions.forEach(question => {
 
-    if (question.wasCorrect) {
+    if (question.wasCorrect) { 
 
       if (question.topic === "RIEAM") {
         rieamScore += 0.5;
