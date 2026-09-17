@@ -76,12 +76,13 @@
     "type": "multiple_choice",
     "question": "Em que local deve ser instalada a bateria? Responda à pergunta que lhe parecer mais correcta.",
     "correct_answer": "D",
-    "answers": [
-      "Ao nível da linha de água e a antena o mais alto possível.",
-      "Ao nível da linha de água e com uma bateria só para o VHF.",
-      "A um nível inferior ao da linha de água.",
-      "A um nível superior ao da linha de água, com uma bateria só para o VHF, e a antena colocada o mais alta possível."
-    ]
+    "answers": {
+      "A":"Ao nível da linha de água e a antena o mais alto possível.",
+      "B":"Ao nível da linha de água e com uma bateria só para o VHF.",
+      "C":"A um nível inferior ao da linha de água.",
+      "D":"A um nível superior ao da linha de água, com uma bateria só para o VHF, e a antena colocada o mais alta possível."   
+      
+    }
   },
   {
     "id": 10,
@@ -218,12 +219,12 @@
     "type": "multiple_choice",
     "question": "Quem é o responsável a bordo pelas comunicações?",
     "correct_answer": "A",
-    "answers": [
-      "O Comandante.",
-      "O tripulante que tiver licença de Radiotelefonista.",
-      "O Comandante e o tripulante que tiver licença de Radiotelefonista.",
-      "A a) e a c) estão certas."
-    ]
+    "answers": {
+      "A":"O Comandante.",
+      "B":"O tripulante que tiver licença de Radiotelefonista.",
+      "C":"O Comandante e o tripulante que tiver licença de Radiotelefonista.",
+      "D":"A a) e a c) estão certas."
+    }
   },
   {
     "id": 27,
@@ -280,12 +281,12 @@
     "type": "multiple_choice",
     "question": "Como deve fazer para efectuar uma chamada no canal 16?",
     "correct_answer": "C",
-    "answers": [
-      "Conhecer o horário de escuta e de trabalho da estação.",
-      "Tentar chamar primeiro no canal de trabalho",
-      "Depois de chamar, aguarde que a estação indique o canal de trabalho",
-      "Não mudar de canal, sem avisar primeiro a que canal vai passar"
-    ]
+    "answers": {
+      "A":"Conhecer o horário de escuta e de trabalho da estação.",
+      "B":"Tentar chamar primeiro no canal de trabalho",
+      "C":"Depois de chamar, aguarde que a estação indique o canal de trabalho",
+      "D":"Não mudar de canal, sem avisar primeiro a que canal vai passar"
+    }
   },
   {
     "id": 34,
@@ -294,12 +295,12 @@
     "type": "multiple_choice",
     "question": "Sempre que ouvir a expressão MÊDÊ significa que é o indicativo de:",
     "correct_answer": "A",
-    "answers": [
-      "Socorro.",
-      "Urgência.",
-      "Segurança.",
-      "Emergência."
-    ]
+    "answers": {
+      "A":"Socorro.",
+      "B":"Urgência.",
+      "C":"Segurança.",
+      "D":"Emergência."
+      }
   },
   {
     "id": 35,
@@ -308,12 +309,12 @@
     "type": "multiple_choice",
     "question": "Sempre que ouvir a expressão SECURITÊ significa que é o indicativo de:",
     "correct_answer": "C",
-    "answers": [
-      "Socorro.",
-      "Urgência.",
-      "Segurança.",
-      "Emergência."
-    ]
+    "answers": {
+      "A":"Socorro.",
+      "B":"Urgência.",
+      "C":"Segurança.",
+      "D":"Emergência."
+      }
   },
   {
     "id": 36,
@@ -322,11 +323,11 @@
     "type": "multiple_choice",
     "question": "Em que local deve ser instalada a bateria?",
     "correct_answer": "B",
-    "answers": [
-      "Abaixo da linha de água.",
-      "Acima da linha de água.",
-      "Ao nível da linha de água."
-    ]
+    "answers": {
+      "A":"Abaixo da linha de água.",
+      "B":"Acima da linha de água.",
+      "C":"Ao nível da linha de água."
+    }
   },
   {
     "id": 37,
@@ -335,12 +336,12 @@
     "type": "multiple_choice",
     "question": "Sempre que ouvir a expressão PANEPANE significa que é o indicativo de:",
     "correct_answer": "B",
-    "answers": [
-      "Socorro.",
-      "Urgência.",
-      "Segurança.",
-      "Emergência"
-    ]
+    "answers": {
+      "A":"Socorro.",
+      "B":"Urgência.",
+      "C":"Segurança.",
+      "D":"Emergência"
+    }
   },
   {
     "id": 38,
@@ -349,11 +350,11 @@
     "type": "multiple_choice",
     "question": "Das seguintes expressões apenas uma se deve utilizar nas comunicações, qual?",
     "correct_answer": "B",
-    "answers": [
-      "Obrigado.",
-      "Negativo.",
-      "Acabei a transmissão.",
-      "Bom dia."
+    "answers": {
+      "A":"Obrigado.",
+      "B":"Negativo.",
+      "C":"Acabei a transmissão.",
+      "D":"Bom dia."
     ]
   },
   {
@@ -363,11 +364,11 @@
     "type": "multiple_choice",
     "question": "O comando do radiotelefone que permite regular a intensidade do som, chama-se:",
     "correct_answer": "B",
-    "answers": [
-      "Potência",
-      "Volume",
-      "Selector de canais",
-      "Dupla escuta"
+    "answers": {
+      "A":"Potência",
+      "B":"Volume",
+      "C":"Selector de canais",
+      "D":"Dupla escuta"
     ]
   },
   {
@@ -393,11 +394,11 @@
     "type": "multiple_choice",
     "question": "O comando do radiotelefone que permite, nas comunicações normais, ouvir sem ruídos, chama-se:",
     "correct_answer": "B",
-    "answers": [
-      "Dual watch",
-      "Squelch",
-      "Volume",
-      "Potência"
-    ]
+    "answers": {
+      "A":"Dual watch",
+      "B":"Squelch",
+      "C":"Volume",
+      "D":"Potência"
+    }
   }
 ]
