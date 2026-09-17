@@ -22,12 +22,12 @@
     "type": "multiple_choice",
     "question": "Em que canal deve estar ligado para escuta, quando sai para o mar?",
     "correct_answer": "A",
-    "answers": [
-      "16",
-      "12",
-      "11",
-      "06"
-    ]
+    "answers": {
+      "A":"16",
+      "B":"12",
+      "C":"11",
+      "D":"06"
+    }
   },
   {
     "id": 4,
